@@ -1,0 +1,7 @@
+2023-11-20 18:34:17:427: [INFO] - Host: http://localhost:8080
+2023-11-20 18:34:17:430: [INFO] - Dealer: test, Player: Alternative 2
+2023-11-20 18:34:17:437: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2023-11-20 18:34:17:446: [INFO] - Client connect successfully!
+2023-11-20 18:34:17:468: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 2"}
+2023-11-20 18:34:17:470: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 2","game_id":"D-00000001","your_id":"P-00000002","total_turn":2,"white_wild":"skip_bind_2"}
+2023-11-20 18:34:17:470: [INFO] - join-room res: {"room_name":"test","player":"Alternative 2","game_id":"D-00000001","your_id":"P-00000002","total_turn":2,"white_wild":"skip_bind_2"}
