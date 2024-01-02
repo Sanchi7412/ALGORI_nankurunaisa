@@ -1,0 +1,4 @@
+2023-11-20 18:34:01:226: [INFO] - Create player. {"_id":"655b280981e87f0027de82df","name":"player1","code":"P-00000001","dateCreated":"2023-11-20T09:34:01.222Z","dateUpdated":"2023-11-20T09:34:01.222Z"}
+2023-11-20 18:34:17:454: [INFO] - Create player. {"_id":"655b281981e87f0027de82e1","name":"Alternative 2","code":"P-00000002","dateCreated":"2023-11-20T09:34:17.452Z","dateUpdated":"2023-11-20T09:34:17.452Z"}
+2023-11-20 18:39:48:260: [INFO] - Create player. {"_id":"655b296481e87f0027de82e3","name":"player2","code":"P-00000003","dateCreated":"2023-11-20T09:39:48.254Z","dateUpdated":"2023-11-20T09:39:48.254Z"}
+2023-11-20 18:39:58:652: [INFO] - Create player. {"_id":"655b296e81e87f0027de82e5","name":"player3","code":"P-00000004","dateCreated":"2023-11-20T09:39:58.651Z","dateUpdated":"2023-11-20T09:39:58.651Z"}
