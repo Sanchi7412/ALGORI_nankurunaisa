@@ -429,11 +429,11 @@ def on_next_player(data_res):
 
         cards = data_res.get('card_of_player')
 
-        if (data_res.get('draw_reason') == DrawReason.WILD_DRAW_4):
-            # カードを引く理由がワイルドドロー4の時、チャレンジを行うことができる。
-            if is_challenge():
-                send_event(SocketConst.EMIT.CHALLENGE, { 'is_challenge': True} )
-                return
+        # if (data_res.get('draw_reason') == DrawReason.WILD_DRAW_4):
+        #     # カードを引く理由がワイルドドロー4の時、チャレンジを行うことができる。
+        #     if is_challenge():
+        #         send_event(SocketConst.EMIT.CHALLENGE, { 'is_challenge': True} )
+        #         return
 
         if str(data_res.get('must_call_draw_card')) == 'True':
             # カードを引かないと行けない時
