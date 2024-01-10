@@ -83,7 +83,7 @@ room_name = args.room_name # ディーラー名
 player = args.player # プレイヤー名
 event_name = args.event_name # Socket通信イベント名
 is_test_tool = TEST_TOOL_HOST_PORT in host # 接続先が開発ガイドラインツールであるかを判定
-SPECIAL_LOGIC_TITLE = '◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯' # スペシャルロジック名
+SPECIAL_LOGIC_TITLE = 'なんくるないさー！' # スペシャルロジック名
 TIME_DELAY = 10 # 処理停止時間
 
 
@@ -157,9 +157,11 @@ Args:
     before_card (*): 場札のカード
 """
 def select_play_card(cards, before_card):
-    cards_valid = [] # ワイルド・シャッフルワイルド・白いワイルドを格納
-    cards_wild = [] # ワイルドドロー4を格納
-    cards_wild4 = [] # 同じ色 または 同じ数字・記号 のカードを格納
+    cards_valid = [] # 通常カードを格納
+    card_spe = [] 
+    cards_wild = [] # ワイルド・シャッフルワイルド・白いワイルドを格納
+    cards_wild_shuffle = [] # ワイルドシャッフルを格納
+    cards_wild4 = [] # ワイルドドロー4を格納
 
     # 場札と照らし合わせ出せるカードを抽出する
     for card in cards:
@@ -170,18 +172,20 @@ def select_play_card(cards, before_card):
             cards_wild4.append(card)
         elif (
             str(card_special) == Special.WILD or
-            str(card_special) == Special.WILD_SHUFFLE or
             str(card_special) == Special.WHITE_WILD
         ):
             # ワイルド・シャッフルワイルド・白いワイルドも場札に関係なく出せる
             cards_wild.append(card)
+        elif (str(card_special) == Special.WILD_SHUFFLE):
+            cards_wild_shuffle.append(card)
         elif str(card.get('color')) == str(before_card.get('color')):
             # 場札と同じ色のカード
             cards_valid.append(card)
+        elif str(card_special and str(card_special) == str(before_card.get('special'))):
+                card_spe.append(card)
         elif (
-            (card_special and str(card_special) == str(before_card.get('special'))) or
             ((card_number is not None or (card_number is not None and int(card_number) == 0)) and
-             (before_card.get('number') and int(card_number) == int(before_card.get('number'))))
+            (before_card.get('number') and int(card_number) == int(before_card.get('number'))))
         ):
             # 場札と数字または記号が同じカード
             cards_valid.append(card)
@@ -192,7 +196,7 @@ def select_play_card(cards, before_card):
     ワイルドドロー4は本来、手札に出せるカードが無い時に出していいカードであるため、一番優先順位を低くする。
     ワイルド・シャッフルワイルド・白いワイルドはいつでも出せるので、条件が揃わないと出せない「同じ色 または 同じ数字・記号」のカードより優先度を低くする。
     """
-    list = cards_valid + cards_wild + cards_wild4
+    list = cards_valid + card_spe + cards_wild + cards_wild4 + cards_wild_shuffle
     if len(list) > 0:
         return list[0]
     else:
@@ -228,11 +232,13 @@ Returns:
     bool:
 """
 def is_challenge():
-    # このプログラムでは1/2の確率でチャレンジを行う。
-    if random_by_number(2) >= 1:
-        return True
-    else:
-        return False
+    # # このプログラムでは1/2の確率でチャレンジを行う。
+    # if random_by_number(2) >= 1:
+    #     return True
+    # else:
+    #     return False
+
+    return False
 
 """
 他のプレイヤーのUNO宣言漏れをチェックする
