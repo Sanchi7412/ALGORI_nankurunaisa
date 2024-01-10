@@ -154,9 +154,9 @@ sio = socketio.Client()
 
 Args:
     cards (list): 自分の手札
-    before_caard (*): 場札のカード
+    before_card (*): 場札のカード
 """
-def select_play_card(cards, before_caard):
+def select_play_card(cards, before_card):
     cards_valid = [] # ワイルド・シャッフルワイルド・白いワイルドを格納
     cards_wild = [] # ワイルドドロー4を格納
     cards_wild4 = [] # 同じ色 または 同じ数字・記号 のカードを格納
@@ -175,13 +175,13 @@ def select_play_card(cards, before_caard):
         ):
             # ワイルド・シャッフルワイルド・白いワイルドも場札に関係なく出せる
             cards_wild.append(card)
-        elif str(card.get('color')) == str(before_caard.get('color')):
+        elif str(card.get('color')) == str(before_card.get('color')):
             # 場札と同じ色のカード
             cards_valid.append(card)
         elif (
-            (card_special and str(card_special) == str(before_caard.get('special'))) or
+            (card_special and str(card_special) == str(before_card.get('special'))) or
             ((card_number is not None or (card_number is not None and int(card_number) == 0)) and
-             (before_caard.get('number') and int(card_number) == int(before_caard.get('number'))))
+             (before_card.get('number') and int(card_number) == int(before_card.get('number'))))
         ):
             # 場札と数字または記号が同じカード
             cards_valid.append(card)
