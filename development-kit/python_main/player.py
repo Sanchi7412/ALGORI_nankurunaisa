@@ -158,7 +158,9 @@ Args:
 """
 def select_play_card(cards, before_card):
     cards_valid = [] # 通常カードを格納
-    card_spe = [] 
+    cards_skip = [] # スキップ
+    cards_reverse = [] # リバース
+    cards_draw2 = [] # ドロー2
     cards_wild = [] # ワイルド・シャッフルワイルド・白いワイルドを格納
     cards_wild_shuffle = [] # ワイルドシャッフルを格納
     cards_wild4 = [] # ワイルドドロー4を格納
@@ -181,11 +183,14 @@ def select_play_card(cards, before_card):
         elif str(card.get('color')) == str(before_card.get('color')):
             # 場札と同じ色のカード
             cards_valid.append(card)
-        elif str(card_special and str(card_special) == str(before_card.get('special'))):
-                card_spe.append(card)
+        elif str(str(card_special) == Special.SKIP and str(before_card.get('special')) == Special.SKIP):
+                cards_skip.append(card)
+        elif str(str(card_special) == Special.REVERSE and str(before_card.get('special')) == Special.REVERSE):
+                cards_reverse.append(card)
+        elif str(str(card_special) == Special.DRAW_2 and str(before_card.get('special')) == Special.DRAW_2):
+                cards_draw2.append(card)
         elif (
-            ((card_number is not None or (card_number is not None and int(card_number) == 0)) and
-            (before_card.get('number') and int(card_number) == int(before_card.get('number'))))
+            before_card.get('number') and int(card_number) == int(before_card.get('number'))
         ):
             # 場札と数字または記号が同じカード
             cards_valid.append(card)
@@ -196,7 +201,7 @@ def select_play_card(cards, before_card):
     ワイルドドロー4は本来、手札に出せるカードが無い時に出していいカードであるため、一番優先順位を低くする。
     ワイルド・シャッフルワイルド・白いワイルドはいつでも出せるので、条件が揃わないと出せない「同じ色 または 同じ数字・記号」のカードより優先度を低くする。
     """
-    list = cards_valid + card_spe + cards_wild + cards_wild4 + cards_wild_shuffle
+    list = cards_reverse + cards_skip + cards_draw2 + cards_valid + cards_wild + cards_wild4 + cards_wild_shuffle
     if len(list) > 0:
         return list[0]
     else:
