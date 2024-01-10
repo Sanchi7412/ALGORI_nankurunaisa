@@ -1852,53 +1852,55 @@ socketServer.on('connection', function (socket) {
           }
 
           const beforeCardPlay = cloneDeep(desk.beforeCardPlay);
-          if (
-            data.is_play_card &&
-            !CommonService.isAvailableCard(cardPlay, beforeCardPlay, desk.cardAddOn)
-          ) {
-            // 場札に対して出せないカードを出したのでペナルティ
-            await handlePenalty(
-              socket,
-              player,
-              desk,
-              AppConst.CARD_PUNISH,
-              new BaseError({ message: AppConst.CARD_PLAY_INVALID_WITH_CARD_BEFORE }),
-              callback,
-              isNextPlayer,
-            );
-            return;
-          }
+          if (data.is_play_card) {
+            if (!CommonService.isAvailableCard(cardPlay, beforeCardPlay, desk.cardAddOn)) {
+              // 場札に対して出せないカードを出したのでペナルティ
+              await handlePenalty(
+                socket,
+                player,
+                desk,
+                AppConst.CARD_PUNISH,
+                new BaseError({ message: AppConst.CARD_PLAY_INVALID_WITH_CARD_BEFORE }),
+                callback,
+                isNextPlayer,
+              );
+              return;
+            }
 
-          if (
-            ((cardPlay.special as Special) === Special.WILD ||
-              (cardPlay.special as Special) === Special.WILD_DRAW_4) &&
-            !data.color_of_wild
-          ) {
-            // 出したカードが色変更を伴うカードだが、color_of_wildフィールドが足りないのでペナルティ
-            await handlePenalty(
-              socket,
-              player,
-              desk,
-              AppConst.CARD_PUNISH,
-              new BaseError({ message: AppConst.COLOR_WILD_IS_REQUIRED }),
-              callback,
-              isNextPlayer,
-            );
-            return;
-          }
+            if (
+              ((cardPlay.special as Special) === Special.WILD ||
+                (cardPlay.special as Special) === Special.WILD_DRAW_4) &&
+              !data.color_of_wild
+            ) {
+              // 出したカードが色変更を伴うカードだが、color_of_wildフィールドが足りないのでペナルティ
+              await handlePenalty(
+                socket,
+                player,
+                desk,
+                AppConst.CARD_PUNISH,
+                new BaseError({ message: AppConst.COLOR_WILD_IS_REQUIRED }),
+                callback,
+                isNextPlayer,
+              );
+              return;
+            }
 
-          if (data.color_of_wild && ARR_COLOR_OF_WILD.indexOf(data.color_of_wild as Color) === -1) {
-            // color_of_wildの値が規定値ではないのでペナルティ
-            await handlePenalty(
-              socket,
-              player,
-              desk,
-              AppConst.CARD_PUNISH,
-              new BaseError({ message: AppConst.COLOR_WILD_INVALID }),
-              callback,
-              isNextPlayer,
-            );
-            return;
+            if (
+              data.color_of_wild &&
+              ARR_COLOR_OF_WILD.indexOf(data.color_of_wild as Color) === -1
+            ) {
+              // color_of_wildの値が規定値ではないのでペナルティ
+              await handlePenalty(
+                socket,
+                player,
+                desk,
+                AppConst.CARD_PUNISH,
+                new BaseError({ message: AppConst.COLOR_WILD_INVALID }),
+                callback,
+                isNextPlayer,
+              );
+              return;
+            }
           }
 
           if (data.yell_uno && cardOfPlayer.length !== 2) {
