@@ -178,22 +178,43 @@ def select_play_card(cards, before_card):
         ):
             # ワイルド・シャッフルワイルド・白いワイルドも場札に関係なく出せる
             cards_wild.append(card)
-        elif (str(card_special) == Special.WILD_SHUFFLE):
+        elif (
+            str(card_special) == Special.WILD_SHUFFLE
+        ):
             cards_wild_shuffle.append(card)
-        elif str(card.get('color')) == str(before_card.get('color')):
+            print("C")
+
+        elif (
+            str(card.get('color')) == str(before_card.get('color'))
+        ):
             # 場札と同じ色のカード
             cards_valid.append(card)
-        elif str(str(card_special) == Special.SKIP and str(before_card.get('special')) == Special.SKIP):
-                cards_skip.append(card)
-        elif str(str(card_special) == Special.REVERSE and str(before_card.get('special')) == Special.REVERSE):
-                cards_reverse.append(card)
-        elif str(str(card_special) == Special.DRAW_2 and str(before_card.get('special')) == Special.DRAW_2):
-                cards_draw2.append(card)
+            print("B")
+
         elif (
-            before_card.get('number') and int(card_number) == int(before_card.get('number'))
+            str(card_special) == Special.SKIP and str(before_card.get('special')) == Special.SKIP
         ):
-            # 場札と数字または記号が同じカード
+            cards_skip.append(card)
+            print("D")
+
+        elif (
+            str(card_special) == Special.REVERSE and str(before_card.get('special')) == Special.REVERSE
+        ):
+            cards_reverse.append(card)
+            print("E")
+
+        elif (
+            str(card_special) == Special.DRAW_2 and str(before_card.get('special')) == Special.DRAW_2
+        ):
+            cards_draw2.append(card)
+            print("F")
+
+        elif (
+            (card_number is not None or (card_number is not None and int(card_number) == 0)) and (before_card.get('number') and int(card_number) == int(before_card.get('number')))
+        ):
+            # 場札と数字が同じカード
             cards_valid.append(card)
+            print("A")
 
     """
     出せるカードのリストを結合し、先頭のカードを返却する。
@@ -202,6 +223,10 @@ def select_play_card(cards, before_card):
     ワイルド・シャッフルワイルド・白いワイルドはいつでも出せるので、条件が揃わないと出せない「同じ色 または 同じ数字・記号」のカードより優先度を低くする。
     """
     list = cards_reverse + cards_skip + cards_draw2 + cards_valid + cards_wild + cards_wild4 + cards_wild_shuffle
+    print("==========")
+    print(list)
+    print(before_card)
+    print("==========")
     if len(list) > 0:
         return list[0]
     else:

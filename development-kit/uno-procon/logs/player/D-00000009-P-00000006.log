@@ -1,0 +1,187 @@
+2024-01-14 00:26:11:368: [INFO] - This game id is D-00000009
+2024-01-14 00:26:11:369: [INFO] - My id is P-00000006
+2024-01-14 00:26:14:029: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"blue","number":7},{"color":"green","number":2},{"color":"yellow","number":8},{"color":"blue","number":6},{"color":"red","number":6},{"color":"green","number":7},{"color":"green","number":3}],"is_penalty":false}
+2024-01-14 00:26:14:239: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"red","number":1},{"color":"green","special":"reverse"},{"color":"yellow","number":2},{"color":"white","special":"white_wild"},{"color":"black","special":"wild"},{"color":"green","number":8},{"color":"green","number":2}],"is_penalty":false}
+2024-01-14 00:26:14:295: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":2},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:14:331: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"yellow","special":"draw_2"},"card_of_player":[{"color":"yellow","number":8},{"color":"green","number":2},{"color":"green","number":3},{"color":"green","number":7},{"color":"blue","number":6},{"color":"blue","number":7},{"color":"red","number":6}],"must_call_draw_card":true,"draw_reason":"nothing","turn_right":true,"number_card_play":2,"number_turn_play":1,"number_card_of_player":{"P-00000002":6,"P-00000006":7,"P-00000005":7,"P-00000001":7}}
+2024-01-14 00:26:14:332: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:14:344: [INFO] - Receive penalty event. res_data: {"player":"P-00000002","number_card_of_player":9,"error":"Next player invalid."}
+2024-01-14 00:26:14:369: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"yellow","number":7},{"color":"green","number":7}],"is_penalty":false}
+2024-01-14 00:26:14:380: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:14:381: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"can_play_draw_card":false,"draw_card":[{"color":"yellow","number":7},{"color":"green","number":7}]}
+2024-01-14 00:26:14:434: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","special":"draw_2"},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:14:479: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:14:520: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","special":"reverse"},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:14:562: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":8},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:14:628: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":8},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:14:644: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000001","card_before":{"color":"yellow","number":8},"card_of_player":[{"color":"yellow","number":2},{"color":"yellow","number":7},{"color":"green","special":"reverse"},{"color":"green","number":2},{"color":"green","number":7},{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":false,"number_card_play":5,"number_turn_play":7,"number_card_of_player":{"P-00000002":8,"P-00000006":9,"P-00000001":5,"P-00000005":8}}
+2024-01-14 00:26:14:644: [DEBUG] - selected card: {"color":"yellow","number":2}
+2024-01-14 00:26:14:645: [INFO] - Send play-card event. req_data: {"card_play":{"color":"yellow","number":2},"yell_uno":false}
+2024-01-14 00:26:14:674: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":2},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:14:690: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"yellow","number":2},"yell_uno":false}
+2024-01-14 00:26:14:720: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","special":"reverse"},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:14:735: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"yellow","special":"reverse"},"card_of_player":[{"color":"yellow","number":7},{"color":"green","special":"reverse"},{"color":"green","number":2},{"color":"green","number":7},{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":7,"number_turn_play":9,"number_card_of_player":{"P-00000002":7,"P-00000006":8,"P-00000001":5,"P-00000005":8}}
+2024-01-14 00:26:14:736: [DEBUG] - selected card: {"color":"yellow","number":7}
+2024-01-14 00:26:14:736: [INFO] - Send play-card event. req_data: {"card_play":{"color":"yellow","number":7},"yell_uno":false}
+2024-01-14 00:26:14:767: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":7},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:14:782: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"yellow","number":7},"yell_uno":false}
+2024-01-14 00:26:14:822: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","special":"reverse"},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:14:836: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000001","card_before":{"color":"yellow","special":"reverse"},"card_of_player":[{"color":"green","special":"reverse"},{"color":"green","number":2},{"color":"green","number":7},{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":false,"number_card_play":9,"number_turn_play":11,"number_card_of_player":{"P-00000002":7,"P-00000006":7,"P-00000001":4,"P-00000005":8}}
+2024-01-14 00:26:14:836: [DEBUG] - selected card: {"color":"green","special":"reverse"}
+2024-01-14 00:26:14:836: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","special":"reverse"},"yell_uno":false}
+2024-01-14 00:26:14:864: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","special":"reverse"},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:14:879: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","special":"reverse"},"yell_uno":false}
+2024-01-14 00:26:14:914: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":2},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:14:956: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":5},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:14:997: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":1},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:15:010: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"green","number":1},"card_of_player":[{"color":"green","number":2},{"color":"green","number":7},{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":13,"number_turn_play":15,"number_card_of_player":{"P-00000002":6,"P-00000006":6,"P-00000001":3,"P-00000005":7}}
+2024-01-14 00:26:15:011: [DEBUG] - selected card: {"color":"green","number":2}
+2024-01-14 00:26:15:011: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":2},"yell_uno":false}
+2024-01-14 00:26:15:038: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":2},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:15:052: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":2},"yell_uno":false}
+2024-01-14 00:26:15:087: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:15:124: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":false,"player":"P-00000001","card_play":{"color":"green","special":"draw_2"}}
+2024-01-14 00:26:15:173: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:15:215: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":6},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:15:228: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"green","number":6},"card_of_player":[{"color":"green","number":7},{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":16,"number_turn_play":19,"number_card_of_player":{"P-00000002":5,"P-00000006":5,"P-00000001":3,"P-00000005":9}}
+2024-01-14 00:26:15:229: [DEBUG] - selected card: {"color":"green","number":7}
+2024-01-14 00:26:15:229: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":7},"yell_uno":false}
+2024-01-14 00:26:15:257: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":7},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:15:271: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":7},"yell_uno":false}
+2024-01-14 00:26:15:307: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:15:360: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:15:404: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":7},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:15:419: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"green","number":7},"card_of_player":[{"color":"green","number":8},{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":18,"number_turn_play":23,"number_card_of_player":{"P-00000002":4,"P-00000006":4,"P-00000001":4,"P-00000005":10}}
+2024-01-14 00:26:15:419: [DEBUG] - selected card: {"color":"green","number":8}
+2024-01-14 00:26:15:419: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":8},"yell_uno":false}
+2024-01-14 00:26:15:449: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":8},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:15:463: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":8},"yell_uno":false}
+2024-01-14 00:26:15:496: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:15:539: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":8},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:15:583: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":2},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:15:598: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"blue","number":2},"card_of_player":[{"color":"red","number":1},{"color":"black","special":"wild"},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":21,"number_turn_play":27,"number_card_of_player":{"P-00000002":3,"P-00000006":3,"P-00000001":5,"P-00000005":9}}
+2024-01-14 00:26:15:598: [DEBUG] - selected card: {"color":"black","special":"wild"}
+2024-01-14 00:26:15:598: [INFO] - Send play-card event. req_data: {"card_play":{"color":"black","special":"wild"},"yell_uno":false,"color_of_wild":"blue"}
+2024-01-14 00:26:15:627: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","special":"wild"},"yell_uno":false,"color_of_wild":"blue","player":"P-00000006"}
+2024-01-14 00:26:15:630: [INFO] - Receive update-color event. res_data: {"color":"blue"}
+2024-01-14 00:26:15:655: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"blue","special":"wild"},"yell_uno":false,"color_of_wild":"blue"}
+2024-01-14 00:26:15:695: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:15:740: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","special":"draw_2"},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:15:781: [INFO] - Receive draw-card event. res_data: {"player":"P-00000002","is_draw":true}
+2024-01-14 00:26:15:797: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"blue","special":"draw_2"},"card_of_player":[{"color":"red","number":1},{"color":"white","special":"white_wild"}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":23,"number_turn_play":31,"number_card_of_player":{"P-00000002":5,"P-00000006":2,"P-00000001":6,"P-00000005":8}}
+2024-01-14 00:26:15:797: [DEBUG] - selected card: {"color":"white","special":"white_wild"}
+2024-01-14 00:26:15:797: [INFO] - Send play-card event. req_data: {"card_play":{"color":"white","special":"white_wild"},"yell_uno":true}
+2024-01-14 00:26:15:836: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"white","special":"white_wild"},"yell_uno":true,"player":"P-00000006"}
+2024-01-14 00:26:15:850: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"white","special":"white_wild"},"yell_uno":true}
+2024-01-14 00:26:15:877: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:15:919: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":7},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:15:933: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"blue","number":7},"card_of_player":[{"color":"red","number":1}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":25,"number_turn_play":34,"number_card_of_player":{"P-00000002":4,"P-00000006":1,"P-00000001":6,"P-00000005":9}}
+2024-01-14 00:26:15:934: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:15:950: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"yellow","number":7}],"is_penalty":false}
+2024-01-14 00:26:15:961: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:15:961: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"draw_card":[{"color":"yellow","number":7}],"can_play_draw_card":true}
+2024-01-14 00:26:15:961: [INFO] - Send play-draw-card event. req_data: {"is_play_card":true,"yell_uno":true}
+2024-01-14 00:26:15:990: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":true,"player":"P-00000006","card_play":{"color":"yellow","number":7}}
+2024-01-14 00:26:16:014: [INFO] - Client play-draw-card successfully! res_data: {"is_play_card":true,"yell_uno":true}
+2024-01-14 00:26:16:051: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":0},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:16:090: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:16:132: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":2},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:16:147: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"yellow","number":2},"card_of_player":[{"color":"red","number":1}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":28,"number_turn_play":38,"number_card_of_player":{"P-00000002":3,"P-00000006":1,"P-00000001":5,"P-00000005":10}}
+2024-01-14 00:26:16:147: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:16:162: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"red","number":2}],"is_penalty":false}
+2024-01-14 00:26:16:173: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:16:173: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"draw_card":[{"color":"red","number":2}],"can_play_draw_card":true}
+2024-01-14 00:26:16:173: [INFO] - Send play-draw-card event. req_data: {"is_play_card":true,"yell_uno":true}
+2024-01-14 00:26:16:201: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":true,"player":"P-00000006","card_play":{"color":"red","number":2}}
+2024-01-14 00:26:16:226: [INFO] - Client play-draw-card successfully! res_data: {"is_play_card":true,"yell_uno":true}
+2024-01-14 00:26:16:263: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":3},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:16:305: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":3},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:16:348: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","special":"wild_draw_4"},"yell_uno":false,"color_of_wild":"yellow","player":"P-00000002"}
+2024-01-14 00:26:16:350: [INFO] - Receive update-color event. res_data: {"color":"yellow"}
+2024-01-14 00:26:16:373: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"yellow","special":"wild_draw_4"},"card_of_player":[{"color":"red","number":1}],"must_call_draw_card":true,"draw_reason":"wild_draw_4","turn_right":true,"number_card_play":32,"number_turn_play":42,"number_card_of_player":{"P-00000002":2,"P-00000006":1,"P-00000001":4,"P-00000005":9}}
+2024-01-14 00:26:16:373: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:16:388: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":5},{"color":"red","number":7}],"is_penalty":false}
+2024-01-14 00:26:16:399: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:16:399: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"can_play_draw_card":false,"draw_card":[{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":5},{"color":"red","number":7}]}
+2024-01-14 00:26:16:459: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":3},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:16:502: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","special":"draw_2"},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:16:541: [INFO] - Receive draw-card event. res_data: {"player":"P-00000002","is_draw":true}
+2024-01-14 00:26:16:555: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"yellow","special":"draw_2"},"card_of_player":[{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":5},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":34,"number_turn_play":46,"number_card_of_player":{"P-00000002":4,"P-00000006":5,"P-00000001":3,"P-00000005":8}}
+2024-01-14 00:26:16:556: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:16:569: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"white","special":"white_wild"}],"is_penalty":false}
+2024-01-14 00:26:16:580: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:16:580: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"draw_card":[{"color":"white","special":"white_wild"}],"can_play_draw_card":true}
+2024-01-14 00:26:16:580: [INFO] - Send play-draw-card event. req_data: {"is_play_card":true,"yell_uno":false}
+2024-01-14 00:26:16:618: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":false,"player":"P-00000006","card_play":{"color":"white","special":"white_wild"}}
+2024-01-14 00:26:16:641: [INFO] - Client play-draw-card successfully! res_data: {"is_play_card":true,"yell_uno":false}
+2024-01-14 00:26:16:666: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:16:705: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","special":"wild_draw_4"},"yell_uno":false,"color_of_wild":"red","player":"P-00000002"}
+2024-01-14 00:26:16:707: [INFO] - Receive update-color event. res_data: {"color":"yellow"}
+2024-01-14 00:26:16:731: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"red","special":"wild_draw_4"},"card_of_player":[{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":5},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":true,"draw_reason":"wild_draw_4","turn_right":true,"number_card_play":36,"number_turn_play":49,"number_card_of_player":{"P-00000002":3,"P-00000006":5,"P-00000001":3,"P-00000005":9}}
+2024-01-14 00:26:16:732: [INFO] - Send draw-card event. req_data: {}
+2024-01-14 00:26:16:746: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"green","number":4},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":6}],"is_penalty":false}
+2024-01-14 00:26:16:757: [INFO] - Receive draw-card event. res_data: {"player":"P-00000006","is_draw":true}
+2024-01-14 00:26:16:757: [INFO] - Client draw-card successfully! res_data: {"player":"P-00000006","is_draw":true,"can_play_draw_card":false,"draw_card":[{"color":"green","number":4},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":6}]}
+2024-01-14 00:26:16:808: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":3},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:16:850: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:16:891: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":5},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:16:906: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"red","number":5},"card_of_player":[{"color":"green","number":4},{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":5},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":38,"number_turn_play":53,"number_card_of_player":{"P-00000002":2,"P-00000006":9,"P-00000001":2,"P-00000005":10}}
+2024-01-14 00:26:16:906: [DEBUG] - selected card: {"color":"blue","number":5}
+2024-01-14 00:26:16:906: [INFO] - Send play-card event. req_data: {"card_play":{"color":"blue","number":5},"yell_uno":false}
+2024-01-14 00:26:16:934: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":5},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:16:948: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"blue","number":5},"yell_uno":false}
+2024-01-14 00:26:16:982: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:17:023: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","special":"draw_2"},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:17:063: [INFO] - Receive draw-card event. res_data: {"player":"P-00000002","is_draw":true}
+2024-01-14 00:26:17:076: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"blue","special":"draw_2"},"card_of_player":[{"color":"green","number":4},{"color":"green","number":9},{"color":"blue","number":1},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":40,"number_turn_play":57,"number_card_of_player":{"P-00000002":4,"P-00000006":8,"P-00000001":3,"P-00000005":9}}
+2024-01-14 00:26:17:077: [DEBUG] - selected card: {"color":"blue","number":1}
+2024-01-14 00:26:17:077: [INFO] - Send play-card event. req_data: {"card_play":{"color":"blue","number":1},"yell_uno":false}
+2024-01-14 00:26:17:105: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":1},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:17:119: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"blue","number":1},"yell_uno":false}
+2024-01-14 00:26:17:154: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:17:188: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":false,"player":"P-00000001","card_play":{"color":"green","number":1}}
+2024-01-14 00:26:17:239: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","special":"skip"},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:17:253: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000005","card_before":{"color":"green","special":"skip"},"card_of_player":[{"color":"green","number":4},{"color":"green","number":9},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":43,"number_turn_play":60,"number_card_of_player":{"P-00000002":4,"P-00000006":7,"P-00000001":3,"P-00000005":8}}
+2024-01-14 00:26:17:254: [DEBUG] - selected card: {"color":"green","number":4}
+2024-01-14 00:26:17:254: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":4},"yell_uno":false}
+2024-01-14 00:26:17:279: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":4},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:17:294: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":4},"yell_uno":false}
+2024-01-14 00:26:17:328: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":4},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:17:370: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"yellow","number":6},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:17:411: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","special":"wild_draw_4"},"yell_uno":false,"color_of_wild":"red","player":"P-00000002"}
+2024-01-14 00:26:17:413: [INFO] - Receive update-color event. res_data: {"color":"yellow"}
+2024-01-14 00:26:17:437: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"red","special":"wild_draw_4"},"card_of_player":[{"color":"green","number":9},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":7}],"must_call_draw_card":true,"draw_reason":"wild_draw_4","turn_right":true,"number_card_play":47,"number_turn_play":64,"number_card_of_player":{"P-00000002":3,"P-00000006":6,"P-00000001":2,"P-00000005":7}}
+2024-01-14 00:26:17:437: [INFO] - Send challenge event. req_data: {"is_challenge":true}
+2024-01-14 00:26:17:451: [INFO] - Receive public-card event. res_data: {"card_of_player":"P-00000002","cards":[{"color":"red","number":8},{"color":"red","special":"skip"},{"color":"red","number":1}]}
+2024-01-14 00:26:17:465: [INFO] - Receive challenge event. res_data: {"challenger":"P-00000006","target":"P-00000002","is_challenge":true,"is_challenge_success":false}
+2024-01-14 00:26:17:475: [INFO] - Receive receiver-card event. res_data: {"cards_receive":[{"color":"yellow","special":"skip"},{"color":"green","number":8},{"color":"green","number":9},{"color":"blue","number":3},{"color":"blue","number":5},{"color":"red","number":6}],"is_penalty":false}
+2024-01-14 00:26:17:507: [INFO] - Client challenge successfully! res_data: {"is_challenge":true}
+2024-01-14 00:26:17:542: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","special":"draw_2"},"yell_uno":true,"player":"P-00000001"}
+2024-01-14 00:26:17:583: [INFO] - Receive draw-card event. res_data: {"player":"P-00000005","is_draw":true}
+2024-01-14 00:26:17:623: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":8},"yell_uno":false,"player":"P-00000002"}
+2024-01-14 00:26:17:637: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"red","number":8},"card_of_player":[{"color":"yellow","special":"skip"},{"color":"green","number":8},{"color":"green","number":9},{"color":"green","number":9},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":5},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":6},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":49,"number_turn_play":68,"number_card_of_player":{"P-00000002":2,"P-00000006":12,"P-00000001":1,"P-00000005":9}}
+2024-01-14 00:26:17:637: [DEBUG] - selected card: {"color":"green","number":8}
+2024-01-14 00:26:17:637: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":8},"yell_uno":false}
+2024-01-14 00:26:17:666: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":8},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:17:680: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":8},"yell_uno":false}
+2024-01-14 00:26:17:714: [INFO] - Receive draw-card event. res_data: {"player":"P-00000001","is_draw":true}
+2024-01-14 00:26:17:755: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":0},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:17:795: [INFO] - Receive draw-card event. res_data: {"player":"P-00000002","is_draw":true}
+2024-01-14 00:26:17:809: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"green","number":0},"card_of_player":[{"color":"yellow","special":"skip"},{"color":"green","number":9},{"color":"green","number":9},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":5},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":6},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":51,"number_turn_play":72,"number_card_of_player":{"P-00000002":3,"P-00000006":11,"P-00000001":2,"P-00000005":8}}
+2024-01-14 00:26:17:810: [DEBUG] - selected card: {"color":"green","number":9}
+2024-01-14 00:26:17:810: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":9},"yell_uno":false}
+2024-01-14 00:26:17:838: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":9},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:17:852: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":9},"yell_uno":false}
+2024-01-14 00:26:17:890: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":9},"yell_uno":true,"player":"P-00000001"}
+2024-01-14 00:26:17:931: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"blue","number":4},"yell_uno":false,"player":"P-00000005"}
+2024-01-14 00:26:17:971: [INFO] - Receive draw-card event. res_data: {"player":"P-00000002","is_draw":true}
+2024-01-14 00:26:17:997: [INFO] - Receive play-draw-card event. res_data: {"is_play_card":true,"yell_uno":false,"player":"P-00000002","card_play":{"color":"green","number":4}}
+2024-01-14 00:26:18:020: [INFO] - Receive next-player event. res_data: {"next_player":"P-00000006","before_player":"P-00000002","card_before":{"color":"green","number":4},"card_of_player":[{"color":"yellow","special":"skip"},{"color":"green","number":9},{"color":"blue","number":2},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":5},{"color":"blue","number":6},{"color":"red","number":1},{"color":"red","number":6},{"color":"red","number":7}],"must_call_draw_card":false,"draw_reason":"nothing","turn_right":true,"number_card_play":55,"number_turn_play":76,"number_card_of_player":{"P-00000002":3,"P-00000006":10,"P-00000001":1,"P-00000005":7}}
+2024-01-14 00:26:18:021: [DEBUG] - selected card: {"color":"green","number":9}
+2024-01-14 00:26:18:021: [INFO] - Send play-card event. req_data: {"card_play":{"color":"green","number":9},"yell_uno":false}
+2024-01-14 00:26:18:046: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"green","number":9},"yell_uno":false,"player":"P-00000006"}
+2024-01-14 00:26:18:061: [INFO] - Client play-card successfully! res_data: {"card_play":{"color":"green","number":9},"yell_uno":false}
+2024-01-14 00:26:18:099: [INFO] - Receive play-card event. res_data: {"card_play":{"color":"red","number":9},"yell_uno":false,"player":"P-00000001"}
+2024-01-14 00:26:18:112: [INFO] - Receive finish-turn event. res_data: {"winner":"P-00000001","turn_no":1,"score":{"P-00000002":-28,"P-00000006":-53,"P-00000005":-80,"P-00000001":161}}
+2024-01-14 00:26:18:126: [INFO] - Receive finish-game event. res_data: {"winner":"P-00000001","turn_win":1,"order":{"P-00000001":1,"P-00000002":0,"P-00000006":0,"P-00000005":0},"total_score":{"P-00000001":161,"P-00000002":-28,"P-00000006":-53,"P-00000005":-80}}
+2024-01-14 00:26:18:135: [INFO] - Client disconnect. data_res: io server disconnect

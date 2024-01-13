@@ -1,0 +1,512 @@
+2024-01-14 00:15:11:325: [INFO] - Event join-room. data: {"room_name":"test","player":"player1"}
+2024-01-14 00:15:15:301: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:15:15:506: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:15:15:689: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:15:15:855: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:15:16:009: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:15:16:174: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:15:16:387: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:15:16:543: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 00:15:16:721: [INFO] - Event join-room. data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 00:15:18:901: [INFO] - Start game. D-00000006
+2024-01-14 00:15:19:017: [DEBUG] - whiteWild skip_bind_2
+2024-01-14 00:15:19:028: [INFO] - isFirstStart true
+2024-01-14 00:15:19:028: [INFO] - Start turn 1
+2024-01-14 00:15:19:029: [INFO] - firstPlayer P-00000001
+2024-01-14 00:15:19:029: [INFO] - firstCard {"color":"red","number":7}
+2024-01-14 00:15:19:042: [DEBUG] - indexOfFirstPlayer 0
+2024-01-14 00:15:19:042: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:196: [INFO] - Event special-logic. data: {"title":"なんくるないさー！"}
+2024-01-14 00:15:19:228: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","special":"draw_2"},"yell_uno":false}
+2024-01-14 00:15:19:238: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:239: [DEBUG] - turnRight true
+2024-01-14 00:15:19:239: [DEBUG] - isSkip false
+2024-01-14 00:15:19:239: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:239: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:239: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:239: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:242: [DEBUG] - cardPlay {"color":"yellow","special":"draw_2"}
+2024-01-14 00:15:19:242: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":4},{"color":"green","number":5},{"color":"green","special":"skip"},{"color":"blue","special":"draw_2"},{"color":"blue","number":9}]
+2024-01-14 00:15:19:266: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:267: [DEBUG] - turnRight true
+2024-01-14 00:15:19:267: [DEBUG] - isSkip false
+2024-01-14 00:15:19:267: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:267: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:267: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:267: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:280: [ERROR] - handleError Error: Card play invalid with card before.
+2024-01-14 00:15:19:283: [INFO] - Event play-card. data: {"card_play":{"color":"red","number":5},"yell_uno":false}
+2024-01-14 00:15:19:294: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:294: [DEBUG] - turnRight true
+2024-01-14 00:15:19:294: [DEBUG] - isSkip false
+2024-01-14 00:15:19:294: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:294: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:294: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:295: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:19:296: [DEBUG] - cardPlay {"color":"red","number":5}
+2024-01-14 00:15:19:296: [DEBUG] - cardOfPlayer [{"color":"green","number":2},{"color":"green","number":2},{"color":"green","number":6},{"color":"blue","special":"skip"},{"color":"blue","number":8},{"color":"red","number":5},{"color":"red","special":"draw_2"}]
+2024-01-14 00:15:19:297: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 2
+2024-01-14 00:15:19:308: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:309: [DEBUG] - turnRight true
+2024-01-14 00:15:19:309: [DEBUG] - isSkip false
+2024-01-14 00:15:19:309: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:309: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:309: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:310: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:19:325: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","number":5},"yell_uno":false}
+2024-01-14 00:15:19:337: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:337: [DEBUG] - turnRight true
+2024-01-14 00:15:19:337: [DEBUG] - isSkip false
+2024-01-14 00:15:19:337: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:337: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:337: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:337: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:19:339: [DEBUG] - cardPlay {"color":"yellow","number":5}
+2024-01-14 00:15:19:339: [DEBUG] - cardOfPlayer [{"color":"yellow","number":5},{"color":"yellow","special":"skip"},{"color":"yellow","number":8},{"color":"green","number":3},{"color":"blue","number":1},{"color":"blue","special":"reverse"},{"color":"black","special":"wild"}]
+2024-01-14 00:15:19:339: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 3
+2024-01-14 00:15:19:351: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:352: [DEBUG] - turnRight true
+2024-01-14 00:15:19:352: [DEBUG] - isSkip false
+2024-01-14 00:15:19:352: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:352: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:352: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:352: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:19:367: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","number":0},"yell_uno":false}
+2024-01-14 00:15:19:379: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:379: [DEBUG] - turnRight true
+2024-01-14 00:15:19:379: [DEBUG] - isSkip false
+2024-01-14 00:15:19:380: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:380: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:380: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:380: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:382: [DEBUG] - cardPlay {"color":"yellow","number":0}
+2024-01-14 00:15:19:382: [DEBUG] - cardOfPlayer [{"color":"yellow","number":0},{"color":"yellow","number":4},{"color":"green","number":0},{"color":"blue","special":"draw_2"},{"color":"red","special":"skip"},{"color":"red","number":1},{"color":"white","special":"white_wild"}]
+2024-01-14 00:15:19:382: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 4
+2024-01-14 00:15:19:394: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:394: [DEBUG] - turnRight true
+2024-01-14 00:15:19:394: [DEBUG] - isSkip false
+2024-01-14 00:15:19:395: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:395: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:395: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:395: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:459: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":4},"yell_uno":false}
+2024-01-14 00:15:19:471: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:471: [DEBUG] - turnRight true
+2024-01-14 00:15:19:471: [DEBUG] - isSkip false
+2024-01-14 00:15:19:471: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:471: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:472: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:472: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:473: [DEBUG] - cardPlay {"color":"green","number":4}
+2024-01-14 00:15:19:473: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":4},{"color":"green","number":5},{"color":"green","special":"reverse"},{"color":"green","special":"skip"},{"color":"blue","special":"draw_2"},{"color":"blue","number":3},{"color":"blue","number":9}]
+2024-01-14 00:15:19:496: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:496: [DEBUG] - turnRight true
+2024-01-14 00:15:19:496: [DEBUG] - isSkip false
+2024-01-14 00:15:19:497: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:497: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:497: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:497: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:510: [ERROR] - handleError Error: Card play invalid with card before.
+2024-01-14 00:15:19:513: [INFO] - Event draw-card. data: {}
+2024-01-14 00:15:19:524: [DEBUG] - turn: 1, numberTurnPlay: 6
+2024-01-14 00:15:19:538: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:539: [DEBUG] - turnRight true
+2024-01-14 00:15:19:539: [DEBUG] - isSkip false
+2024-01-14 00:15:19:539: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:539: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:539: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:539: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:19:554: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","special":"skip"},"yell_uno":false}
+2024-01-14 00:15:19:565: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:565: [DEBUG] - turnRight true
+2024-01-14 00:15:19:566: [DEBUG] - isSkip true
+2024-01-14 00:15:19:566: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:566: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:566: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:566: [DEBUG] - nextPlayer P-00000001, skipPlayer P-00000006
+2024-01-14 00:15:19:567: [DEBUG] - cardPlay {"color":"yellow","special":"skip"}
+2024-01-14 00:15:19:568: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"skip"},{"color":"yellow","number":8},{"color":"green","number":3},{"color":"blue","number":1},{"color":"blue","special":"reverse"},{"color":"black","special":"wild"}]
+2024-01-14 00:15:19:568: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 7
+2024-01-14 00:15:19:580: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:580: [DEBUG] - turnRight true
+2024-01-14 00:15:19:580: [DEBUG] - isSkip true
+2024-01-14 00:15:19:580: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:580: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:580: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:580: [DEBUG] - nextPlayer P-00000001, skipPlayer P-00000006
+2024-01-14 00:15:19:612: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":4},"yell_uno":false}
+2024-01-14 00:15:19:623: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:624: [DEBUG] - turnRight true
+2024-01-14 00:15:19:624: [DEBUG] - isSkip false
+2024-01-14 00:15:19:624: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:624: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:624: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:624: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:626: [DEBUG] - cardPlay {"color":"green","number":4}
+2024-01-14 00:15:19:626: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":4},{"color":"green","number":5},{"color":"green","special":"draw_2"},{"color":"green","special":"reverse"},{"color":"green","special":"skip"},{"color":"blue","special":"draw_2"},{"color":"blue","number":3},{"color":"blue","number":9},{"color":"red","number":4}]
+2024-01-14 00:15:19:652: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:652: [DEBUG] - turnRight true
+2024-01-14 00:15:19:652: [DEBUG] - isSkip false
+2024-01-14 00:15:19:652: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:652: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:652: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:652: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:665: [ERROR] - handleError Error: Card play invalid with card before.
+2024-01-14 00:15:19:667: [INFO] - Event play-card. data: {"card_play":{"color":"blue","special":"skip"},"yell_uno":false}
+2024-01-14 00:15:19:679: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:679: [DEBUG] - turnRight true
+2024-01-14 00:15:19:679: [DEBUG] - isSkip true
+2024-01-14 00:15:19:679: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:679: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:679: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:680: [DEBUG] - nextPlayer P-00000006, skipPlayer P-00000002
+2024-01-14 00:15:19:681: [DEBUG] - cardPlay {"color":"blue","special":"skip"}
+2024-01-14 00:15:19:681: [DEBUG] - cardOfPlayer [{"color":"green","number":1},{"color":"green","number":2},{"color":"green","number":2},{"color":"green","number":6},{"color":"blue","special":"skip"},{"color":"blue","number":8},{"color":"red","special":"draw_2"}]
+2024-01-14 00:15:19:682: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 9
+2024-01-14 00:15:19:694: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:694: [DEBUG] - turnRight true
+2024-01-14 00:15:19:695: [DEBUG] - isSkip true
+2024-01-14 00:15:19:695: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:695: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:695: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:695: [DEBUG] - nextPlayer P-00000006, skipPlayer P-00000002
+2024-01-14 00:15:19:711: [INFO] - Event play-card. data: {"card_play":{"color":"blue","special":"draw_2"},"yell_uno":false}
+2024-01-14 00:15:19:723: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:723: [DEBUG] - turnRight true
+2024-01-14 00:15:19:723: [DEBUG] - isSkip false
+2024-01-14 00:15:19:723: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:724: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:724: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:724: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:725: [DEBUG] - cardPlay {"color":"blue","special":"draw_2"}
+2024-01-14 00:15:19:726: [DEBUG] - cardOfPlayer [{"color":"yellow","number":4},{"color":"green","number":0},{"color":"blue","special":"draw_2"},{"color":"red","special":"skip"},{"color":"red","number":1},{"color":"white","special":"white_wild"}]
+2024-01-14 00:15:19:726: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 10
+2024-01-14 00:15:19:738: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:739: [DEBUG] - turnRight true
+2024-01-14 00:15:19:739: [DEBUG] - isSkip false
+2024-01-14 00:15:19:739: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:739: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:739: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:739: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:761: [INFO] - Event draw-card. data: {}
+2024-01-14 00:15:19:773: [DEBUG] - turn: 1, numberTurnPlay: 11
+2024-01-14 00:15:19:786: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:786: [DEBUG] - turnRight true
+2024-01-14 00:15:19:787: [DEBUG] - isSkip false
+2024-01-14 00:15:19:787: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:787: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:787: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:787: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:802: [INFO] - Event play-card. data: {"card_play":{"color":"blue","number":8},"yell_uno":false}
+2024-01-14 00:15:19:814: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:814: [DEBUG] - turnRight true
+2024-01-14 00:15:19:814: [DEBUG] - isSkip false
+2024-01-14 00:15:19:815: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:815: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:815: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:815: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:19:816: [DEBUG] - cardPlay {"color":"blue","number":8}
+2024-01-14 00:15:19:817: [DEBUG] - cardOfPlayer [{"color":"green","number":1},{"color":"green","number":2},{"color":"green","number":2},{"color":"green","number":6},{"color":"blue","number":8},{"color":"red","special":"draw_2"}]
+2024-01-14 00:15:19:817: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 12
+2024-01-14 00:15:19:829: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:829: [DEBUG] - turnRight true
+2024-01-14 00:15:19:829: [DEBUG] - isSkip false
+2024-01-14 00:15:19:829: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:19:829: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:19:830: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:19:830: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:19:845: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","number":8},"yell_uno":false}
+2024-01-14 00:15:19:857: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:857: [DEBUG] - turnRight true
+2024-01-14 00:15:19:857: [DEBUG] - isSkip false
+2024-01-14 00:15:19:857: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:857: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:858: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:858: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:19:859: [DEBUG] - cardPlay {"color":"yellow","number":8}
+2024-01-14 00:15:19:860: [DEBUG] - cardOfPlayer [{"color":"yellow","number":8},{"color":"green","number":3},{"color":"blue","number":1},{"color":"blue","special":"reverse"},{"color":"black","special":"wild"}]
+2024-01-14 00:15:19:860: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 13
+2024-01-14 00:15:19:872: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:872: [DEBUG] - turnRight true
+2024-01-14 00:15:19:872: [DEBUG] - isSkip false
+2024-01-14 00:15:19:872: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:19:872: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:19:873: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:19:873: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:19:888: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","number":4},"yell_uno":false}
+2024-01-14 00:15:19:899: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:900: [DEBUG] - turnRight true
+2024-01-14 00:15:19:900: [DEBUG] - isSkip false
+2024-01-14 00:15:19:900: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:900: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:900: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:900: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:901: [DEBUG] - cardPlay {"color":"yellow","number":4}
+2024-01-14 00:15:19:902: [DEBUG] - cardOfPlayer [{"color":"yellow","number":4},{"color":"green","number":0},{"color":"red","special":"skip"},{"color":"red","number":1},{"color":"white","special":"white_wild"}]
+2024-01-14 00:15:19:902: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 14
+2024-01-14 00:15:19:914: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:914: [DEBUG] - turnRight true
+2024-01-14 00:15:19:914: [DEBUG] - isSkip false
+2024-01-14 00:15:19:914: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:19:914: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:19:915: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:19:915: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:19:953: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":4},"yell_uno":false}
+2024-01-14 00:15:19:965: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:965: [DEBUG] - turnRight true
+2024-01-14 00:15:19:965: [DEBUG] - isSkip false
+2024-01-14 00:15:19:965: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:965: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:965: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:965: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:967: [DEBUG] - cardPlay {"color":"green","number":4}
+2024-01-14 00:15:19:967: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":4},{"color":"green","number":5},{"color":"green","special":"draw_2"},{"color":"green","special":"reverse"},{"color":"green","special":"skip"},{"color":"green","number":3},{"color":"blue","special":"draw_2"},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":9},{"color":"blue","special":"skip"},{"color":"red","number":4},{"color":"black","special":"wild"}]
+2024-01-14 00:15:19:967: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 15
+2024-01-14 00:15:19:979: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:19:979: [DEBUG] - turnRight true
+2024-01-14 00:15:19:979: [DEBUG] - isSkip false
+2024-01-14 00:15:19:979: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:19:980: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:19:980: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:19:980: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:19:995: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":1},"yell_uno":false}
+2024-01-14 00:15:20:007: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:007: [DEBUG] - turnRight true
+2024-01-14 00:15:20:007: [DEBUG] - isSkip false
+2024-01-14 00:15:20:007: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:007: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:007: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:007: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:009: [DEBUG] - cardPlay {"color":"green","number":1}
+2024-01-14 00:15:20:009: [DEBUG] - cardOfPlayer [{"color":"green","number":1},{"color":"green","number":2},{"color":"green","number":2},{"color":"green","number":6},{"color":"red","special":"draw_2"}]
+2024-01-14 00:15:20:010: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 16
+2024-01-14 00:15:20:022: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:022: [DEBUG] - turnRight true
+2024-01-14 00:15:20:022: [DEBUG] - isSkip false
+2024-01-14 00:15:20:022: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:022: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:022: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:023: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:036: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":3},"yell_uno":false}
+2024-01-14 00:15:20:049: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:049: [DEBUG] - turnRight true
+2024-01-14 00:15:20:049: [DEBUG] - isSkip false
+2024-01-14 00:15:20:049: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:049: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:049: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:050: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:052: [DEBUG] - cardPlay {"color":"green","number":3}
+2024-01-14 00:15:20:052: [DEBUG] - cardOfPlayer [{"color":"green","number":3},{"color":"blue","number":1},{"color":"blue","special":"reverse"},{"color":"black","special":"wild"}]
+2024-01-14 00:15:20:052: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 17
+2024-01-14 00:15:20:065: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:065: [DEBUG] - turnRight true
+2024-01-14 00:15:20:065: [DEBUG] - isSkip false
+2024-01-14 00:15:20:065: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:065: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:065: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:065: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:081: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":0},"yell_uno":false}
+2024-01-14 00:15:20:091: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:091: [DEBUG] - turnRight true
+2024-01-14 00:15:20:092: [DEBUG] - isSkip false
+2024-01-14 00:15:20:093: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:093: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:093: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:093: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:20:095: [DEBUG] - cardPlay {"color":"green","number":0}
+2024-01-14 00:15:20:095: [DEBUG] - cardOfPlayer [{"color":"green","number":0},{"color":"red","special":"skip"},{"color":"red","number":1},{"color":"white","special":"white_wild"}]
+2024-01-14 00:15:20:096: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 18
+2024-01-14 00:15:20:108: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:108: [DEBUG] - turnRight true
+2024-01-14 00:15:20:108: [DEBUG] - isSkip false
+2024-01-14 00:15:20:108: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:108: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:108: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:108: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:20:143: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","special":"draw_2"},"yell_uno":false}
+2024-01-14 00:15:20:154: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:154: [DEBUG] - turnRight true
+2024-01-14 00:15:20:155: [DEBUG] - isSkip false
+2024-01-14 00:15:20:155: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:20:155: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:20:155: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:20:155: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:20:156: [DEBUG] - cardPlay {"color":"yellow","special":"draw_2"}
+2024-01-14 00:15:20:156: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":5},{"color":"green","special":"draw_2"},{"color":"green","special":"reverse"},{"color":"green","special":"skip"},{"color":"green","number":3},{"color":"blue","special":"draw_2"},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":9},{"color":"blue","special":"skip"},{"color":"red","number":4},{"color":"black","special":"wild"}]
+2024-01-14 00:15:20:181: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:181: [DEBUG] - turnRight true
+2024-01-14 00:15:20:182: [DEBUG] - isSkip false
+2024-01-14 00:15:20:182: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:20:182: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:20:182: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:20:182: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:20:195: [ERROR] - handleError Error: Card play invalid with card before.
+2024-01-14 00:15:20:196: [INFO] - Event play-card. data: {"card_play":{"color":"green","number":2},"yell_uno":false}
+2024-01-14 00:15:20:208: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:208: [DEBUG] - turnRight true
+2024-01-14 00:15:20:208: [DEBUG] - isSkip false
+2024-01-14 00:15:20:208: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:209: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:209: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:209: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:211: [DEBUG] - cardPlay {"color":"green","number":2}
+2024-01-14 00:15:20:211: [DEBUG] - cardOfPlayer [{"color":"green","number":2},{"color":"green","number":2},{"color":"green","number":6},{"color":"red","special":"draw_2"}]
+2024-01-14 00:15:20:211: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 20
+2024-01-14 00:15:20:223: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:223: [DEBUG] - turnRight true
+2024-01-14 00:15:20:224: [DEBUG] - isSkip false
+2024-01-14 00:15:20:224: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:224: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:224: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:224: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:238: [INFO] - Event play-card. data: {"card_play":{"color":"black","special":"wild"},"yell_uno":false,"color_of_wild":"blue"}
+2024-01-14 00:15:20:250: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:250: [DEBUG] - turnRight true
+2024-01-14 00:15:20:250: [DEBUG] - isSkip false
+2024-01-14 00:15:20:250: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:250: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:250: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:250: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:252: [DEBUG] - cardPlay {"color":"black","special":"wild"}
+2024-01-14 00:15:20:252: [DEBUG] - cardOfPlayer [{"color":"blue","number":1},{"color":"blue","special":"reverse"},{"color":"black","special":"wild"}]
+2024-01-14 00:15:20:252: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 21
+2024-01-14 00:15:20:276: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:276: [DEBUG] - turnRight true
+2024-01-14 00:15:20:277: [DEBUG] - isSkip false
+2024-01-14 00:15:20:277: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:277: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:277: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:277: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:291: [INFO] - Event play-card. data: {"card_play":{"color":"white","special":"white_wild"},"yell_uno":false}
+2024-01-14 00:15:20:303: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:303: [DEBUG] - turnRight true
+2024-01-14 00:15:20:303: [DEBUG] - isSkip true
+2024-01-14 00:15:20:303: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:303: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:303: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:303: [DEBUG] - nextPlayer P-00000005, skipPlayer P-00000001
+2024-01-14 00:15:20:305: [DEBUG] - cardPlay {"color":"white","special":"white_wild"}
+2024-01-14 00:15:20:305: [DEBUG] - cardOfPlayer [{"color":"red","special":"skip"},{"color":"red","number":1},{"color":"white","special":"white_wild"}]
+2024-01-14 00:15:20:305: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 22
+2024-01-14 00:15:20:305: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:306: [DEBUG] - turnRight true
+2024-01-14 00:15:20:306: [DEBUG] - isSkip true
+2024-01-14 00:15:20:306: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:306: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:306: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:306: [DEBUG] - nextPlayer P-00000005, skipPlayer P-00000001
+2024-01-14 00:15:20:329: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:329: [DEBUG] - turnRight true
+2024-01-14 00:15:20:329: [DEBUG] - isSkip true
+2024-01-14 00:15:20:329: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:329: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:329: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:330: [DEBUG] - nextPlayer P-00000005, skipPlayer P-00000001
+2024-01-14 00:15:20:344: [INFO] - Event draw-card. data: {}
+2024-01-14 00:15:20:356: [DEBUG] - turn: 1, numberTurnPlay: 23
+2024-01-14 00:15:20:369: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:370: [DEBUG] - turnRight true
+2024-01-14 00:15:20:370: [DEBUG] - isSkip false
+2024-01-14 00:15:20:370: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:370: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:370: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:370: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:384: [INFO] - Event play-card. data: {"card_play":{"color":"blue","number":1},"yell_uno":true}
+2024-01-14 00:15:20:396: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:396: [DEBUG] - turnRight true
+2024-01-14 00:15:20:396: [DEBUG] - isSkip false
+2024-01-14 00:15:20:396: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:396: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:396: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:396: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:398: [DEBUG] - cardPlay {"color":"blue","number":1}
+2024-01-14 00:15:20:398: [DEBUG] - cardOfPlayer [{"color":"blue","number":1},{"color":"blue","special":"reverse"}]
+2024-01-14 00:15:20:399: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 24
+2024-01-14 00:15:20:410: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:411: [DEBUG] - turnRight true
+2024-01-14 00:15:20:411: [DEBUG] - isSkip false
+2024-01-14 00:15:20:411: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:411: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:411: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:411: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:427: [INFO] - Event play-card. data: {"card_play":{"color":"red","number":1},"yell_uno":true}
+2024-01-14 00:15:20:439: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:439: [DEBUG] - turnRight true
+2024-01-14 00:15:20:439: [DEBUG] - isSkip false
+2024-01-14 00:15:20:439: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:439: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:439: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:439: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:20:441: [DEBUG] - cardPlay {"color":"red","number":1}
+2024-01-14 00:15:20:441: [DEBUG] - cardOfPlayer [{"color":"red","special":"skip"},{"color":"red","number":1}]
+2024-01-14 00:15:20:441: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 25
+2024-01-14 00:15:20:453: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:453: [DEBUG] - turnRight true
+2024-01-14 00:15:20:453: [DEBUG] - isSkip false
+2024-01-14 00:15:20:453: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:453: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:454: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:454: [DEBUG] - nextPlayer P-00000001, skipPlayer undefined
+2024-01-14 00:15:20:496: [INFO] - Event play-card. data: {"card_play":{"color":"yellow","special":"draw_2"},"yell_uno":false}
+2024-01-14 00:15:20:508: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:509: [DEBUG] - turnRight true
+2024-01-14 00:15:20:509: [DEBUG] - isSkip false
+2024-01-14 00:15:20:509: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:20:509: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:20:509: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:20:509: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:20:512: [DEBUG] - cardPlay {"color":"yellow","special":"draw_2"}
+2024-01-14 00:15:20:513: [DEBUG] - cardOfPlayer [{"color":"yellow","special":"draw_2"},{"color":"yellow","special":"skip"},{"color":"green","number":5},{"color":"green","special":"draw_2"},{"color":"green","special":"reverse"},{"color":"green","special":"skip"},{"color":"green","number":3},{"color":"blue","special":"draw_2"},{"color":"blue","number":3},{"color":"blue","number":3},{"color":"blue","number":9},{"color":"blue","special":"skip"},{"color":"red","number":2},{"color":"red","number":4},{"color":"black","special":"wild"},{"color":"black","special":"wild_draw_4"}]
+2024-01-14 00:15:20:538: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:538: [DEBUG] - turnRight true
+2024-01-14 00:15:20:538: [DEBUG] - isSkip false
+2024-01-14 00:15:20:538: [DEBUG] - indexOfBeforePlayer 0
+2024-01-14 00:15:20:538: [DEBUG] - indexOfNextPlayer 1
+2024-01-14 00:15:20:538: [DEBUG] - indexOfOppsitePlayer 2
+2024-01-14 00:15:20:538: [DEBUG] - nextPlayer P-00000005, skipPlayer undefined
+2024-01-14 00:15:20:550: [ERROR] - handleError Error: Card play invalid with card before.
+2024-01-14 00:15:20:552: [INFO] - Event draw-card. data: {}
+2024-01-14 00:15:20:562: [DEBUG] - turn: 1, numberTurnPlay: 27
+2024-01-14 00:15:20:576: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:576: [DEBUG] - turnRight true
+2024-01-14 00:15:20:576: [DEBUG] - isSkip false
+2024-01-14 00:15:20:577: [DEBUG] - indexOfBeforePlayer 1
+2024-01-14 00:15:20:577: [DEBUG] - indexOfNextPlayer 2
+2024-01-14 00:15:20:577: [DEBUG] - indexOfOppsitePlayer 3
+2024-01-14 00:15:20:577: [DEBUG] - nextPlayer P-00000002, skipPlayer undefined
+2024-01-14 00:15:20:591: [INFO] - Event draw-card. data: {}
+2024-01-14 00:15:20:603: [DEBUG] - turn: 1, numberTurnPlay: 28
+2024-01-14 00:15:20:617: [INFO] - Event play-draw-card. data: {"is_play_card":true,"yell_uno":true}
+2024-01-14 00:15:20:630: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:630: [DEBUG] - turnRight true
+2024-01-14 00:15:20:630: [DEBUG] - isSkip false
+2024-01-14 00:15:20:631: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:631: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:631: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:631: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:632: [DEBUG] - cardPlay {"color":"red","number":1}
+2024-01-14 00:15:20:633: [DEBUG] - cardOfPlayer [{"color":"blue","special":"reverse"},{"color":"red","number":1}]
+2024-01-14 00:15:20:633: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 28
+2024-01-14 00:15:20:655: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:655: [DEBUG] - turnRight true
+2024-01-14 00:15:20:655: [DEBUG] - isSkip false
+2024-01-14 00:15:20:656: [DEBUG] - indexOfBeforePlayer 2
+2024-01-14 00:15:20:656: [DEBUG] - indexOfNextPlayer 3
+2024-01-14 00:15:20:656: [DEBUG] - indexOfOppsitePlayer 0
+2024-01-14 00:15:20:656: [DEBUG] - nextPlayer P-00000006, skipPlayer undefined
+2024-01-14 00:15:20:670: [INFO] - Event play-card. data: {"card_play":{"color":"red","special":"skip"},"yell_uno":false}
+2024-01-14 00:15:20:682: [DEBUG] - players ["P-00000001","P-00000005","P-00000002","P-00000006"]
+2024-01-14 00:15:20:682: [DEBUG] - turnRight true
+2024-01-14 00:15:20:682: [DEBUG] - isSkip true
+2024-01-14 00:15:20:682: [DEBUG] - indexOfBeforePlayer 3
+2024-01-14 00:15:20:683: [DEBUG] - indexOfNextPlayer 0
+2024-01-14 00:15:20:683: [DEBUG] - indexOfOppsitePlayer 1
+2024-01-14 00:15:20:683: [DEBUG] - nextPlayer P-00000005, skipPlayer P-00000001
+2024-01-14 00:15:20:684: [DEBUG] - cardPlay {"color":"red","special":"skip"}
+2024-01-14 00:15:20:685: [DEBUG] - cardOfPlayer [{"color":"red","special":"skip"}]
+2024-01-14 00:15:20:685: [DEBUG] - Play card action. turn: 1, numberTurnPlay: 29
+2024-01-14 00:15:20:696: [INFO] - Finish turn 1. winner: P-00000006. lastCard: {"color":"red","special":"skip"}
+2024-01-14 00:15:20:733: [INFO] - socket disconnect. socketId: "uzrkgG8BjEdRWMhKAAAm". playerCode: P-00000001
+2024-01-14 00:15:20:734: [INFO] - socket disconnect. socketId: "6ToYROpjiQqBtjmlAAAq". playerCode: P-00000005
+2024-01-14 00:15:20:736: [INFO] - socket disconnect. socketId: "W_iveBC56_H1K7bxAAAn". playerCode: P-00000002
+2024-01-14 00:15:20:738: [INFO] - socket disconnect. socketId: "hZZb5eLRgtHAPpLNAAAu". playerCode: P-00000006
