@@ -16,3 +16,1483 @@
 (node:51) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
 (node:51) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
 
+2024-01-13 23:50:02:185: [INFO] - Start ALGORI system.
+2024-01-13 23:50:02:185: [INFO] - Init sequenceService.
+2024-01-13 23:50:02:186: [INFO] - Init commonService.
+2024-01-13 23:53:40:253: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"100","whiteWild":"skip_bind_2","code":"D-00000002"}
+2024-01-13 23:53:40:262: [INFO] - Add new dealer.
+2024-01-13 23:53:55:910: [INFO] - Added a player to D-00000002. Player: Alternative 2.
+2024-01-13 23:53:56:088: [INFO] - Added a player to D-00000002. Player: Alternative 2.
+2024-01-13 23:53:56:629: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-13 23:53:57:245: [INFO] - Added a player to D-00000002. Player: Alternative 3.
+2024-01-13 23:53:59:344: [WARN] - Resend add player post.
+2024-01-13 23:54:02:058: [INFO] - Added a player to D-00000002. Player: Alternative 4.
+2024-01-13 23:54:03:055: [INFO] - Added a player to D-00000002. Player: undefined.
+2024-01-13 23:54:05:072: [WARN] - Resend start dealer post.
+2024-01-13 23:54:10:656: [INFO] - Start game D-00000002.
+2024-01-14 00:00:10:153: [WARN] - (node:75) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:00:10:153: [WARN] - (node:51) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:00:10:158: [WARN] - (node:87) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:00:55:531: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"50","whiteWild":"skip_bind_2","code":"D-00000003"}
+2024-01-14 00:00:55:533: [INFO] - Add new dealer.
+2024-01-14 00:01:06:023: [INFO] - Added a player to D-00000003. Player: Alternative 2.
+2024-01-14 00:01:06:265: [INFO] - Added a player to D-00000003. Player: Alternative 2.
+2024-01-14 00:01:06:448: [INFO] - Added a player to D-00000003. Player: Alternative 2.
+2024-01-14 00:01:06:835: [WARN] - (node:107) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:107) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:01:06:960: [WARN] - (node:115) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:115) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:01:07:191: [INFO] - Added a player to D-00000003. Player: Alternative 3.
+2024-01-14 00:01:07:356: [INFO] - Added a player to D-00000003. Player: Alternative 3.
+2024-01-14 00:01:07:530: [INFO] - Added a player to D-00000003. Player: Alternative 3.
+2024-01-14 00:01:07:695: [WARN] - Resend add player post.
+2024-01-14 00:01:07:903: [WARN] - (node:143) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:143) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:143) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:143) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:01:08:067: [WARN] - (node:151) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:151) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:151) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:151) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:01:09:168: [WARN] - Resend add player post.
+2024-01-14 00:01:12:178: [INFO] - Added a player to D-00000003. Player: Alternative 4.
+2024-01-14 00:01:13:360: [INFO] - Added a player to D-00000003. Player: undefined.
+2024-01-14 00:01:14:467: [WARN] - Resend start dealer post.
+2024-01-14 00:01:16:087: [INFO] - Start game D-00000003.
+2024-01-14 00:03:59:933: [WARN] - (node:135) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:135) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:135) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:135) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:03:59:933: [WARN] - (node:99) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:03:59:935: [WARN] - (node:171) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:171) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:171) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:171) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:15:821: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000004"}
+2024-01-14 00:07:15:823: [INFO] - Add new dealer.
+2024-01-14 00:07:26:491: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:26:502: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:26:506: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:26:545: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:26:803: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:26:911: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:27:089: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:27:264: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:27:423: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:30:396: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:30:610: [INFO] - Added a player to D-00000004. Player: Alternative 2.
+2024-01-14 00:07:30:740: [WARN] - (node:223) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:223) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:223) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:223) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:30:745: [WARN] - (node:231) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:231) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:30:751: [WARN] - (node:185) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:185) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:185) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:185) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:029: [WARN] - (node:247) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:247) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:247) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:247) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:029: [WARN] - (node:239) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:239) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:239) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:239) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:039: [WARN] - (node:183) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:183) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:183) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:183) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:044: [WARN] - (node:197) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:197) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:197) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:197) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:047: [WARN] - (node:207) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:207) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:207) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:207) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:201: [WARN] - (node:263) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:263) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:31:205: [WARN] - (node:255) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:255) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:33:941: [INFO] - Added a player to D-00000004. Player: Alternative 3.
+2024-01-14 00:07:34:143: [INFO] - Added a player to D-00000004. Player: Alternative 3.
+2024-01-14 00:07:34:855: [WARN] - (node:323) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:323) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:323) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:323) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:35:997: [WARN] - Resend add player post.
+2024-01-14 00:07:38:360: [INFO] - Added a player to D-00000004. Player: Alternative 4.
+2024-01-14 00:07:40:111: [WARN] - Resend start dealer post.
+2024-01-14 00:07:44:812: [INFO] - Start game D-00000004.
+2024-01-14 00:07:44:980: [INFO] - Start game D-00000004.
+2024-01-14 00:07:51:494: [WARN] - (node:339) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:339) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:339) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:339) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:51:494: [WARN] - (node:215) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:215) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:215) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:215) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:07:51:496: [WARN] - (node:315) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:315) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:315) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:315) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:22:154: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000005"}
+2024-01-14 00:10:22:157: [INFO] - Add new dealer.
+2024-01-14 00:10:23:722: [INFO] - Added a player to D-00000005. Player: Alternative 1.
+2024-01-14 00:10:31:800: [INFO] - Added a player to D-00000005. Player: Alternative 3.
+2024-01-14 00:10:31:987: [INFO] - Added a player to D-00000005. Player: Alternative 3.
+2024-01-14 00:10:32:156: [INFO] - Added a player to D-00000005. Player: Alternative 3.
+2024-01-14 00:10:32:328: [INFO] - Added a player to D-00000005. Player: Alternative 4.
+2024-01-14 00:10:32:492: [WARN] - (node:371) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:371) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:371) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:371) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:32:512: [INFO] - Added a player to D-00000005. Player: Alternative 4.
+2024-01-14 00:10:32:669: [INFO] - Added a player to D-00000005. Player: Alternative 4.
+2024-01-14 00:10:32:677: [WARN] - (node:379) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:379) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:379) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:379) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:32:844: [INFO] - Added a player to D-00000005. Player: Alternative 4.
+2024-01-14 00:10:33:019: [WARN] - (node:403) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:403) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:403) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:403) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:33:058: [INFO] - Added a player to D-00000005. Player: undefined.
+2024-01-14 00:10:33:379: [WARN] - Resend add player post.
+2024-01-14 00:10:33:459: [WARN] - Resend add player post.
+2024-01-14 00:10:33:619: [WARN] - (node:415) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:415) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:415) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:415) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:33:624: [WARN] - Resend add player post.
+2024-01-14 00:10:33:666: [WARN] - (node:427) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:427) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:427) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:427) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:35:122: [WARN] - Resend start dealer post.
+2024-01-14 00:10:35:628: [INFO] - Start game D-00000005.
+2024-01-14 00:10:43:218: [WARN] - (node:391) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:391) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:391) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:391) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:43:219: [WARN] - (node:363) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:363) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:363) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:363) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:10:43:220: [WARN] - (node:351) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:351) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:351) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:351) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:06:064: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000006"}
+2024-01-14 00:15:06:066: [INFO] - Add new dealer.
+2024-01-14 00:15:14:811: [INFO] - Added a player to D-00000006. Player: Alternative 2.
+2024-01-14 00:15:14:988: [INFO] - Added a player to D-00000006. Player: Alternative 2.
+2024-01-14 00:15:15:155: [INFO] - Added a player to D-00000006. Player: Alternative 2.
+2024-01-14 00:15:15:326: [INFO] - Added a player to D-00000006. Player: Alternative 3.
+2024-01-14 00:15:15:497: [INFO] - Added a player to D-00000006. Player: Alternative 3.
+2024-01-14 00:15:15:516: [WARN] - (node:455) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:455) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:455) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:455) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:15:667: [INFO] - Added a player to D-00000006. Player: Alternative 3.
+2024-01-14 00:15:15:698: [WARN] - (node:463) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:463) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:463) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:463) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:15:852: [INFO] - Added a player to D-00000006. Player: Alternative 3.
+2024-01-14 00:15:16:020: [WARN] - (node:487) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:487) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:487) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:487) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:16:034: [INFO] - Added a player to D-00000006. Player: Alternative 4.
+2024-01-14 00:15:16:185: [WARN] - (node:499) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:499) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:499) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:499) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:16:206: [INFO] - Added a player to D-00000006. Player: Alternative 4.
+2024-01-14 00:15:16:405: [WARN] - Resend add player post.
+2024-01-14 00:15:16:457: [WARN] - (node:511) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:511) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:511) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:511) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:16:730: [WARN] - (node:535) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:535) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:535) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:535) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:17:146: [WARN] - Resend add player post.
+2024-01-14 00:15:17:837: [WARN] - Resend start dealer post.
+2024-01-14 00:15:19:047: [INFO] - Start game D-00000006.
+2024-01-14 00:15:20:746: [WARN] - (node:447) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:447) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:447) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:447) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:20:747: [WARN] - (node:475) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:475) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:475) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:475) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:15:20:750: [WARN] - (node:523) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:523) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:523) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:523) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:43:635: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000007"}
+2024-01-14 00:17:43:637: [INFO] - Add new dealer.
+2024-01-14 00:17:53:614: [INFO] - Added a player to D-00000007. Player: Alternative 2.
+2024-01-14 00:17:53:819: [INFO] - Added a player to D-00000007. Player: Alternative 2.
+2024-01-14 00:17:53:988: [INFO] - Added a player to D-00000007. Player: Alternative 2.
+2024-01-14 00:17:54:163: [INFO] - Added a player to D-00000007. Player: Alternative 3.
+2024-01-14 00:17:54:323: [INFO] - Added a player to D-00000007. Player: Alternative 3.
+2024-01-14 00:17:54:355: [WARN] - (node:563) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:563) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:563) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:563) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:54:486: [INFO] - Added a player to D-00000007. Player: Alternative 3.
+2024-01-14 00:17:54:553: [WARN] - (node:571) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:571) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:571) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:571) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:54:645: [INFO] - Added a player to D-00000007. Player: Alternative 3.
+2024-01-14 00:17:54:813: [INFO] - Added a player to D-00000007. Player: Alternative 4.
+2024-01-14 00:17:54:879: [WARN] - (node:595) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:595) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:595) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:595) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:54:964: [INFO] - Added a player to D-00000007. Player: Alternative 4.
+2024-01-14 00:17:55:025: [WARN] - (node:603) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:603) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:603) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:603) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:55:192: [WARN] - Resend add player post.
+2024-01-14 00:17:55:290: [WARN] - (node:615) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:615) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:615) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:615) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:55:548: [WARN] - (node:639) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:639) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:639) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:639) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:17:56:419: [WARN] - Resend add player post.
+2024-01-14 00:17:57:107: [WARN] - Resend start dealer post.
+2024-01-14 00:17:58:007: [INFO] - Start game D-00000007.
+2024-01-14 00:17:58:060: [WARN] - Resend start dealer post.
+2024-01-14 00:18:04:927: [WARN] - (node:555) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:555) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:555) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:555) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:18:04:928: [WARN] - (node:583) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:583) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:583) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:583) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:18:04:928: [WARN] - (node:627) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:627) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:627) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:627) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:30:755: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000008"}
+2024-01-14 00:23:30:757: [INFO] - Add new dealer.
+2024-01-14 00:23:39:775: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:39:951: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:40:108: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:40:284: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:40:454: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:40:609: [INFO] - Added a player to D-00000008. Player: Alternative 2.
+2024-01-14 00:23:40:780: [INFO] - Added a player to D-00000008. Player: Alternative 3.
+2024-01-14 00:23:40:947: [INFO] - Added a player to D-00000008. Player: Alternative 3.
+2024-01-14 00:23:40:991: [WARN] - (node:671) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:671) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:671) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:671) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:41:103: [WARN] - (node:679) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:679) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:679) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:679) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:41:112: [INFO] - Added a player to D-00000008. Player: Alternative 3.
+2024-01-14 00:23:41:269: [INFO] - Added a player to D-00000008. Player: Alternative 3.
+2024-01-14 00:23:41:461: [WARN] - Resend add player post.
+2024-01-14 00:23:41:850: [WARN] - (node:687) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:687) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:687) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:687) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:41:857: [WARN] - Resend add player post.
+2024-01-14 00:23:42:367: [WARN] - Resend add player post.
+2024-01-14 00:23:42:433: [WARN] - (node:695) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:695) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:695) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:695) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:42:647: [WARN] - (node:703) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:703) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:703) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:703) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:42:745: [WARN] - (node:739) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:739) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:739) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:739) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:42:748: [WARN] - (node:715) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:715) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:715) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:715) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:42:754: [WARN] - (node:751) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:751) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:751) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:751) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:45:518: [INFO] - Added a player to D-00000008. Player: Alternative 4.
+2024-01-14 00:23:45:693: [INFO] - Added a player to D-00000008. Player: Alternative 4.
+2024-01-14 00:23:46:664: [WARN] - (node:791) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:791) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:791) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:791) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:48:269: [INFO] - Start game D-00000008.
+2024-01-14 00:23:48:310: [WARN] - Resend start dealer post.
+2024-01-14 00:23:49:934: [WARN] - (node:663) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:663) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:663) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:663) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:49:934: [WARN] - (node:727) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:727) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:727) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:727) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:23:49:935: [WARN] - (node:783) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:783) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:783) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:783) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:25:54:685: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000009"}
+2024-01-14 00:25:54:687: [INFO] - Add new dealer.
+2024-01-14 00:26:09:489: [INFO] - Added a player to D-00000009. Player: Alternative 2.
+2024-01-14 00:26:09:644: [INFO] - Added a player to D-00000009. Player: Alternative 2.
+2024-01-14 00:26:09:801: [INFO] - Added a player to D-00000009. Player: Alternative 2.
+2024-01-14 00:26:09:956: [INFO] - Added a player to D-00000009. Player: Alternative 2.
+2024-01-14 00:26:10:137: [INFO] - Added a player to D-00000009. Player: Alternative 3.
+2024-01-14 00:26:10:146: [WARN] - (node:815) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:815) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:815) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:815) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:10:283: [INFO] - Added a player to D-00000009. Player: Alternative 3.
+2024-01-14 00:26:10:343: [WARN] - (node:823) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:823) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:823) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:823) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:10:450: [INFO] - Added a player to D-00000009. Player: Alternative 3.
+2024-01-14 00:26:10:501: [WARN] - (node:835) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:835) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:835) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:835) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:10:619: [INFO] - Added a player to D-00000009. Player: Alternative 3.
+2024-01-14 00:26:10:783: [INFO] - Added a player to D-00000009. Player: Alternative 4.
+2024-01-14 00:26:10:839: [WARN] - (node:855) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:855) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:855) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:855) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:10:959: [INFO] - Added a player to D-00000009. Player: Alternative 4.
+2024-01-14 00:26:10:981: [WARN] - (node:867) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:867) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:867) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:867) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:11:141: [WARN] - Resend add player post.
+2024-01-14 00:26:11:236: [WARN] - (node:879) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:879) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:879) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:879) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:11:520: [WARN] - (node:907) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:907) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:907) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:907) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:11:988: [WARN] - Resend add player post.
+2024-01-14 00:26:13:076: [WARN] - Resend start dealer post.
+2024-01-14 00:26:14:244: [INFO] - Start game D-00000009.
+2024-01-14 00:26:14:293: [INFO] - Start game D-00000009.
+2024-01-14 00:26:18:150: [WARN] - (node:891) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:891) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:891) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:891) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:18:150: [WARN] - (node:807) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:807) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:807) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:807) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:26:18:157: [WARN] - (node:847) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:847) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:847) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:847) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:18:993: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"50","whiteWild":"skip_bind_2","code":"D-00000010"}
+2024-01-14 00:30:18:994: [INFO] - Add new dealer.
+2024-01-14 00:30:34:073: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:148: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:326: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:497: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:662: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:848: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:34:987: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:35:176: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:35:307: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:35:475: [INFO] - Added a player to D-00000010. Player: Alternative 2.
+2024-01-14 00:30:38:048: [WARN] - Resend add player post.
+2024-01-14 00:30:38:131: [WARN] - Resend add player post.
+2024-01-14 00:30:38:205: [WARN] - Resend add player post.
+2024-01-14 00:30:38:373: [WARN] - Resend add player post.
+2024-01-14 00:30:38:696: [WARN] - Resend add player post.
+2024-01-14 00:30:38:796: [WARN] - Resend add player post.
+2024-01-14 00:30:38:993: [WARN] - Resend add player post.
+2024-01-14 00:30:39:284: [WARN] - (node:999) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:999) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:999) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:999) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:287: [WARN] - (node:935) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:935) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:935) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:935) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:288: [WARN] - (node:928) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:928) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:928) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:928) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:308: [WARN] - (node:991) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:991) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:991) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:991) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:324: [WARN] - (node:933) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:933) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:933) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:933) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:327: [WARN] - (node:931) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:931) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:931) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:931) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:331: [WARN] - (node:929) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:929) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:929) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:929) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:347: [WARN] - (node:962) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:962) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:962) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:962) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:39:348: [WARN] - (node:983) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:983) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:983) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:983) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:40:324: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:40:523: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:40:701: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:40:864: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:41:043: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:41:245: [INFO] - Added a player to D-00000010. Player: Alternative 3.
+2024-01-14 00:30:41:679: [WARN] - (node:1055) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1055) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1055) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1055) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:41:935: [WARN] - (node:1063) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1063) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1063) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1063) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:42:015: [WARN] - (node:1071) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1071) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1071) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1071) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:42:200: [WARN] - (node:1079) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1079) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1079) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1079) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:42:442: [WARN] - (node:1087) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1087) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1087) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1087) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:30:43:515: [WARN] - Resend add player post.
+2024-01-14 00:30:45:547: [INFO] - Added a player to D-00000010. Player: Alternative 4.
+2024-01-14 00:30:46:155: [INFO] - Added a player to D-00000010. Player: undefined.
+2024-01-14 00:30:47:672: [WARN] - Resend start dealer post.
+2024-01-14 00:30:49:202: [INFO] - Start game D-00000010.
+2024-01-14 00:30:49:520: [INFO] - Start game D-00000010.
+2024-01-14 00:33:40:669: [WARN] - (node:969) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:969) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:969) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:969) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:33:40:669: [WARN] - (node:1047) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1047) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1047) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1047) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 00:33:40:670: [WARN] - (node:1119) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1119) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1119) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1119) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:20:07:905: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"30","whiteWild":"skip_bind_2","code":"D-00000011"}
+2024-01-14 01:20:07:907: [INFO] - Add new dealer.
+2024-01-14 01:20:35:231: [INFO] - Added a player to D-00000011. Player: Alternative 3.
+2024-01-14 01:20:35:851: [INFO] - Added a player to D-00000011. Player: Alternative 4.
+2024-01-14 01:20:36:060: [INFO] - Added a player to D-00000011. Player: Alternative 4.
+2024-01-14 01:20:36:234: [INFO] - Added a player to D-00000011. Player: Alternative 4.
+2024-01-14 01:20:36:412: [INFO] - Added a player to D-00000011. Player: undefined.
+2024-01-14 01:20:36:594: [WARN] - (node:1151) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1151) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1151) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1151) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:20:36:797: [WARN] - (node:1159) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1159) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1159) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1159) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:20:37:411: [WARN] - Resend start dealer post.
+2024-01-14 01:20:38:374: [WARN] - Resend start dealer post.
+2024-01-14 01:20:40:144: [INFO] - Start game D-00000011.
+2024-01-14 01:22:08:245: [INFO] - Start ALGORI system.
+2024-01-14 01:22:08:246: [INFO] - Init sequenceService.
+2024-01-14 01:22:08:247: [INFO] - Init commonService.
+2024-01-14 01:25:01:585: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000012"}
+2024-01-14 01:25:01:592: [INFO] - Add new dealer.
+2024-01-14 01:25:18:853: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:19:056: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:19:251: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:19:420: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:19:602: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:19:784: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:20:006: [INFO] - Added a player to D-00000012. Player: Alternative 3.
+2024-01-14 01:25:20:104: [INFO] - Added a player to D-00000012. Player: Alternative 4.
+2024-01-14 01:25:20:283: [INFO] - Added a player to D-00000012. Player: Alternative 4.
+2024-01-14 01:25:20:288: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:20:327: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:20:500: [WARN] - Resend add player post.
+2024-01-14 01:25:20:852: [WARN] - (node:75) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:20:877: [WARN] - (node:83) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:20:882: [WARN] - (node:103) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:103) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:20:888: [WARN] - (node:91) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:21:384: [WARN] - (node:127) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:127) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:127) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:127) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:25:22:221: [WARN] - Resend start dealer post.
+2024-01-14 01:25:23:661: [INFO] - Start game D-00000012.
+2024-01-14 01:25:23:728: [WARN] - Resend start dealer post.
+2024-01-14 01:31:40:813: [INFO] - Start ALGORI system.
+2024-01-14 01:31:40:814: [INFO] - Init sequenceService.
+2024-01-14 01:31:40:815: [INFO] - Init commonService.
+2024-01-14 01:37:30:380: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000013"}
+2024-01-14 01:37:31:220: [INFO] - Add new dealer.
+2024-01-14 01:37:44:582: [INFO] - Added a player to D-00000013. Player: Alternative 3.
+2024-01-14 01:37:44:785: [INFO] - Added a player to D-00000013. Player: Alternative 3.
+2024-01-14 01:37:44:959: [INFO] - Added a player to D-00000013. Player: Alternative 3.
+2024-01-14 01:37:45:148: [INFO] - Added a player to D-00000013. Player: Alternative 3.
+2024-01-14 01:37:45:315: [INFO] - Added a player to D-00000013. Player: Alternative 4.
+2024-01-14 01:37:45:344: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:45:494: [INFO] - Added a player to D-00000013. Player: Alternative 4.
+2024-01-14 01:37:45:581: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:45:664: [INFO] - Added a player to D-00000013. Player: Alternative 4.
+2024-01-14 01:37:45:696: [WARN] - (node:75) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:45:831: [INFO] - Added a player to D-00000013. Player: Alternative 4.
+2024-01-14 01:37:46:015: [INFO] - Added a player to D-00000013. Player: undefined.
+2024-01-14 01:37:46:277: [WARN] - (node:99) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:46:764: [WARN] - (node:115) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:115) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:46:767: [WARN] - (node:123) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:123) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:123) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:123) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:37:47:302: [WARN] - Resend start dealer post.
+2024-01-14 01:37:48:491: [WARN] - Resend start dealer post.
+2024-01-14 01:37:51:628: [INFO] - Start game D-00000013.
+2024-01-14 01:37:51:709: [INFO] - Start game D-00000013.
+2024-01-14 01:41:22:426: [INFO] - Start ALGORI system.
+2024-01-14 01:41:22:427: [INFO] - Init sequenceService.
+2024-01-14 01:41:22:428: [INFO] - Init commonService.
+2024-01-14 01:41:24:431: [INFO] - Start game D-00000013.
+2024-01-14 01:41:30:608: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000014"}
+2024-01-14 01:41:30:628: [INFO] - Add new dealer.
+2024-01-14 01:41:39:933: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:40:138: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:40:298: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:40:461: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:40:646: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:40:818: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:41:055: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:41:146: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:41:406: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:41:578: [WARN] - Resend add player post.
+2024-01-14 01:41:41:739: [WARN] - Resend add player post.
+2024-01-14 01:41:43:732: [WARN] - Resend add player post.
+2024-01-14 01:41:44:080: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:44:285: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:44:480: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:44:681: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:47:661: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:47:842: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:48:523: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:48:586: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:48:596: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:48:692: [INFO] - Added a player to D-00000014. Player: Alternative 3.
+2024-01-14 01:41:48:967: [INFO] - Added a player to D-00000014. Player: Alternative 4.
+2024-01-14 01:41:48:990: [WARN] - (node:147) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:147) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:014: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:022: [WARN] - (node:155) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:155) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:155) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:155) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:029: [WARN] - (node:131) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:131) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:131) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:131) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:039: [WARN] - (node:83) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:046: [WARN] - (node:139) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:139) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:139) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:139) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:055: [WARN] - (node:91) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:058: [WARN] - (node:115) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:115) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:115) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:067: [WARN] - (node:75) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:075: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:082: [WARN] - (node:99) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:091: [WARN] - (node:163) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:163) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:163) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:163) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:096: [WARN] - (node:107) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:107) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:101: [WARN] - (node:51) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:262: [WARN] - Resend add player post.
+2024-01-14 01:41:49:508: [WARN] - (node:195) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:195) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:195) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:195) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:514: [WARN] - (node:171) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:171) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:171) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:171) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:520: [WARN] - (node:178) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:178) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:178) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:178) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:49:527: [WARN] - (node:186) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:186) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:186) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:186) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:41:50:790: [WARN] - Resend start dealer post.
+2024-01-14 01:41:51:399: [INFO] - Start game D-00000014.
+2024-01-14 01:43:41:268: [INFO] - Start ALGORI system.
+2024-01-14 01:43:41:269: [INFO] - Init sequenceService.
+2024-01-14 01:43:41:271: [INFO] - Init commonService.
+2024-01-14 01:43:41:836: [INFO] - Start game D-00000014.
+2024-01-14 01:43:48:805: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000015"}
+2024-01-14 01:43:48:919: [INFO] - Add new dealer.
+2024-01-14 01:43:50:958: [INFO] - Added a player to D-00000015. Player: Alternative 1.
+2024-01-14 01:44:04:658: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:04:785: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:04:995: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:05:111: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:07:252: [WARN] - Resend add player post.
+2024-01-14 01:44:07:583: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:08:095: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:08:240: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:10:323: [WARN] - Resend add player post.
+2024-01-14 01:44:10:957: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:11:158: [INFO] - Added a player to D-00000015. Player: Alternative 4.
+2024-01-14 01:44:11:407: [WARN] - (node:63) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:63) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:63) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:488: [WARN] - (node:65) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:65) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:65) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:493: [WARN] - (node:95) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:95) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:95) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:500: [WARN] - (node:79) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:79) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:79) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:507: [WARN] - (node:87) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:512: [WARN] - (node:103) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:103) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:517: [WARN] - (node:119) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:119) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:119) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:119) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:11:698: [WARN] - (node:127) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:127) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:127) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:127) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:44:12:664: [WARN] - Resend start dealer post.
+2024-01-14 01:44:13:535: [INFO] - Start game D-00000015.
+2024-01-14 01:44:13:594: [WARN] - Resend start dealer post.
+2024-01-14 01:52:09:751: [ERROR] - 現在試合中のディーラーと同一のため作成できません。
+2024-01-14 01:52:17:021: [WARN] - Resend add dealer post.
+2024-01-14 01:53:42:254: [INFO] - Start ALGORI system.
+2024-01-14 01:53:42:255: [INFO] - Init sequenceService.
+2024-01-14 01:53:42:256: [INFO] - Init commonService.
+2024-01-14 01:54:07:809: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000016"}
+2024-01-14 01:54:07:818: [INFO] - Add new dealer.
+2024-01-14 01:54:25:889: [INFO] - Added a player to D-00000016. Player: Alternative 3.
+2024-01-14 01:54:26:104: [INFO] - Added a player to D-00000016. Player: Alternative 3.
+2024-01-14 01:54:26:286: [INFO] - Added a player to D-00000016. Player: Alternative 3.
+2024-01-14 01:54:26:474: [INFO] - Added a player to D-00000016. Player: Alternative 4.
+2024-01-14 01:54:26:600: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:54:26:670: [INFO] - Added a player to D-00000016. Player: Alternative 4.
+2024-01-14 01:54:26:783: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:54:26:865: [INFO] - Added a player to D-00000016. Player: Alternative 4.
+2024-01-14 01:54:27:055: [INFO] - Added a player to D-00000016. Player: undefined.
+2024-01-14 01:54:27:168: [WARN] - (node:91) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:54:27:364: [WARN] - (node:103) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:103) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:103) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:54:30:142: [WARN] - Resend start dealer post.
+2024-01-14 01:54:31:480: [INFO] - Start game D-00000016.
+2024-01-14 01:54:31:533: [WARN] - Resend start dealer post.
+2024-01-14 01:55:51:654: [INFO] - Start ALGORI system.
+2024-01-14 01:55:51:655: [INFO] - Init sequenceService.
+2024-01-14 01:55:51:656: [INFO] - Init commonService.
+2024-01-14 01:55:53:388: [INFO] - Start game D-00000016.
+2024-01-14 01:55:58:325: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000017"}
+2024-01-14 01:55:58:331: [INFO] - Add new dealer.
+2024-01-14 01:56:10:577: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:10:766: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:10:975: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:14:246: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:14:444: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:14:610: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:14:851: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:14:949: [INFO] - Added a player to D-00000017. Player: Alternative 3.
+2024-01-14 01:56:15:299: [WARN] - (node:51) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:478: [WARN] - (node:75) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:75) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:484: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:488: [WARN] - (node:83) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:83) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:83) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:493: [WARN] - (node:91) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:91) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:91) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:497: [WARN] - (node:99) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:99) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:15:501: [WARN] - (node:107) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:107) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:107) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:56:16:654: [WARN] - Resend add player post.
+2024-01-14 01:56:17:002: [INFO] - Added a player to D-00000017. Player: Alternative 4.
+2024-01-14 01:56:19:089: [WARN] - Resend start dealer post.
+2024-01-14 01:56:20:136: [INFO] - Start game D-00000017.
+2024-01-14 01:58:04:991: [WARN] - (node:147) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:147) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:58:04:992: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:58:47:406: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"10","whiteWild":"skip_bind_2","code":"D-00000018"}
+2024-01-14 01:58:47:408: [INFO] - Add new dealer.
+2024-01-14 01:59:08:852: [INFO] - Added a player to D-00000018. Player: Alternative 3.
+2024-01-14 01:59:09:084: [INFO] - Added a player to D-00000018. Player: Alternative 3.
+2024-01-14 01:59:09:285: [INFO] - Added a player to D-00000018. Player: Alternative 3.
+2024-01-14 01:59:09:484: [INFO] - Added a player to D-00000018. Player: Alternative 4.
+2024-01-14 01:59:09:574: [WARN] - (node:167) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:167) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:167) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:167) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:59:09:679: [INFO] - Added a player to D-00000018. Player: Alternative 4.
+2024-01-14 01:59:09:794: [WARN] - (node:175) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:175) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:175) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:175) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:59:10:164: [WARN] - (node:199) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:199) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:199) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:199) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 01:59:10:446: [WARN] - Resend add player post.
+2024-01-14 01:59:11:590: [WARN] - Resend start dealer post.
+2024-01-14 01:59:12:404: [INFO] - Start game D-00000018.
+2024-01-14 02:00:08:148: [WARN] - (node:187) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:187) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:187) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:187) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:00:08:150: [WARN] - (node:159) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:159) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:159) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:159) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:04:03:774: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"25","whiteWild":"skip_bind_2","code":"D-00000019"}
+2024-01-14 02:04:03:776: [INFO] - Add new dealer.
+2024-01-14 02:04:20:182: [INFO] - Added a player to D-00000019. Player: Alternative 3.
+2024-01-14 02:04:20:859: [INFO] - Added a player to D-00000019. Player: Alternative 4.
+2024-01-14 02:04:21:050: [INFO] - Added a player to D-00000019. Player: Alternative 4.
+2024-01-14 02:04:21:596: [WARN] - (node:239) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:239) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:239) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:239) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:04:23:374: [WARN] - Resend start dealer post.
+2024-01-14 02:04:23:989: [INFO] - Start game D-00000019.
+2024-01-14 02:06:03:711: [WARN] - (node:231) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:231) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:06:03:713: [WARN] - (node:219) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:219) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:219) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:219) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:06:17:568: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000020"}
+2024-01-14 02:06:17:570: [INFO] - Add new dealer.
+2024-01-14 02:06:32:800: [INFO] - Added a player to D-00000020. Player: Alternative 2.
+2024-01-14 02:06:33:574: [INFO] - Added a player to D-00000020. Player: Alternative 2.
+2024-01-14 02:06:34:538: [WARN] - (node:263) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:263) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:06:36:369: [WARN] - Resend add player post.
+2024-01-14 02:06:37:174: [INFO] - Added a player to D-00000020. Player: Alternative 4.
+2024-01-14 02:06:39:365: [WARN] - Resend start dealer post.
+2024-01-14 02:06:41:294: [INFO] - Start game D-00000020.
+2024-01-14 02:06:41:367: [INFO] - Start game D-00000020.
+2024-01-14 02:06:43:301: [WARN] - (node:279) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:279) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:279) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:279) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:06:43:306: [WARN] - (node:255) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:255) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:08:09:512: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000021"}
+2024-01-14 02:08:09:514: [INFO] - Add new dealer.
+2024-01-14 02:08:23:851: [INFO] - Added a player to D-00000021. Player: Alternative 2.
+2024-01-14 02:08:24:658: [INFO] - Added a player to D-00000021. Player: Alternative 3.
+2024-01-14 02:08:27:592: [INFO] - Added a player to D-00000021. Player: Alternative 4.
+2024-01-14 02:08:28:154: [INFO] - Added a player to D-00000021. Player: undefined.
+2024-01-14 02:08:28:776: [INFO] - Start game D-00000021.
+2024-01-14 02:08:32:810: [WARN] - (node:291) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:291) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:291) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:291) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:08:32:816: [WARN] - (node:303) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:303) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:303) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:303) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:08:32:816: [WARN] - (node:315) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:315) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:315) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:315) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:08:37:992: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000022"}
+2024-01-14 02:08:37:994: [INFO] - Add new dealer.
+2024-01-14 02:08:48:779: [INFO] - Added a player to D-00000022. Player: Alternative 3.
+2024-01-14 02:08:49:920: [INFO] - Added a player to D-00000022. Player: Alternative 4.
+2024-01-14 02:08:52:287: [WARN] - Resend start dealer post.
+2024-01-14 02:08:53:003: [INFO] - Start game D-00000022.
+2024-01-14 02:09:28:514: [INFO] - Start ALGORI system.
+2024-01-14 02:09:28:515: [INFO] - Init sequenceService.
+2024-01-14 02:09:28:516: [INFO] - Init commonService.
+2024-01-14 02:09:29:554: [INFO] - Start game D-00000022.
+2024-01-14 02:09:34:750: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000023"}
+2024-01-14 02:09:34:779: [INFO] - Add new dealer.
+2024-01-14 02:09:49:056: [INFO] - Added a player to D-00000023. Player: Alternative 3.
+2024-01-14 02:09:49:552: [INFO] - Added a player to D-00000023. Player: Alternative 3.
+2024-01-14 02:09:49:782: [INFO] - Added a player to D-00000023. Player: Alternative 3.
+2024-01-14 02:09:50:806: [WARN] - (node:67) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:67) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:09:50:859: [WARN] - (node:59) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:59) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:59) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:09:51:676: [WARN] - Resend add player post.
+2024-01-14 02:09:52:849: [INFO] - Added a player to D-00000023. Player: Alternative 4.
+2024-01-14 02:09:53:045: [INFO] - Added a player to D-00000023. Player: Alternative 4.
+2024-01-14 02:09:53:532: [WARN] - (node:95) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:95) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:95) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:09:55:247: [WARN] - Resend start dealer post.
+2024-01-14 02:09:56:268: [INFO] - Start game D-00000023.
+2024-01-14 02:09:56:323: [WARN] - Resend start dealer post.
+2024-01-14 02:09:58:841: [WARN] - (node:51) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:51) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:09:58:841: [WARN] - (node:87) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:87) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:87) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:16:17:273: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1","whiteWild":"skip_bind_2","code":"D-00000024"}
+2024-01-14 02:16:17:275: [INFO] - Add new dealer.
+2024-01-14 02:16:47:639: [INFO] - Added a player to D-00000024. Player: Alternative 3.
+2024-01-14 02:16:48:910: [INFO] - Added a player to D-00000024. Player: Alternative 4.
+2024-01-14 02:16:50:836: [WARN] - Resend start dealer post.
+2024-01-14 02:16:57:358: [INFO] - Start game D-00000024.
+2024-01-14 02:17:09:433: [WARN] - (node:111) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:111) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:111) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:111) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:17:09:435: [WARN] - (node:123) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:123) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:123) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:123) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:28:20:348: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"50","whiteWild":"skip_bind_2","code":"D-00000025"}
+2024-01-14 02:28:20:350: [INFO] - Add new dealer.
+2024-01-14 02:28:21:362: [INFO] - Added a player to D-00000025. Player: Alternative 1.
+2024-01-14 02:28:29:772: [INFO] - Added a player to D-00000025. Player: Alternative 3.
+2024-01-14 02:28:30:347: [INFO] - Added a player to D-00000025. Player: Alternative 3.
+2024-01-14 02:28:30:529: [INFO] - Added a player to D-00000025. Player: Alternative 3.
+2024-01-14 02:28:30:781: [INFO] - Added a player to D-00000025. Player: Alternative 4.
+2024-01-14 02:28:30:864: [INFO] - Added a player to D-00000025. Player: Alternative 4.
+2024-01-14 02:28:31:502: [WARN] - (node:155) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:155) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:155) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:155) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:28:31:518: [WARN] - (node:167) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:167) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:167) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:167) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:28:31:820: [WARN] - (node:183) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:183) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:183) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:183) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:28:32:744: [WARN] - Resend add player post.
+2024-01-14 02:28:33:881: [INFO] - Start game D-00000025.
+2024-01-14 02:31:48:560: [WARN] - (node:135) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:135) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:135) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:135) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:31:48:563: [WARN] - (node:147) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:147) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:147) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:31:48:563: [WARN] - (node:175) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:175) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:175) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:175) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:31:58:934: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"50","whiteWild":"skip_bind_2","code":"D-00000026"}
+2024-01-14 02:31:58:937: [INFO] - Add new dealer.
+2024-01-14 02:32:10:128: [INFO] - Added a player to D-00000026. Player: Alternative 3.
+2024-01-14 02:32:10:913: [INFO] - Added a player to D-00000026. Player: Alternative 4.
+2024-01-14 02:32:11:458: [INFO] - Added a player to D-00000026. Player: undefined.
+2024-01-14 02:32:12:490: [WARN] - Resend start dealer post.
+2024-01-14 02:32:13:341: [INFO] - Start game D-00000026.
+2024-01-14 02:32:13:396: [WARN] - Resend start dealer post.
+2024-01-14 02:34:48:993: [WARN] - (node:207) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:207) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:207) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:207) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:34:48:994: [WARN] - (node:219) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:219) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:219) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:219) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:35:27:428: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"50","whiteWild":"skip_bind_2","code":"D-00000027"}
+2024-01-14 02:35:27:430: [INFO] - Add new dealer.
+2024-01-14 02:38:30:775: [INFO] - Added a player to D-00000027. Player: Alternative 3.
+2024-01-14 02:38:30:989: [INFO] - Added a player to D-00000027. Player: Alternative 3.
+2024-01-14 02:38:31:176: [INFO] - Added a player to D-00000027. Player: Alternative 3.
+2024-01-14 02:38:31:344: [INFO] - Added a player to D-00000027. Player: Alternative 3.
+2024-01-14 02:38:31:507: [INFO] - Added a player to D-00000027. Player: Alternative 3.
+2024-01-14 02:38:32:013: [WARN] - (node:245) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:245) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:245) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:245) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:38:32:020: [WARN] - (node:231) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:231) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:231) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:38:32:024: [WARN] - (node:255) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:255) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:255) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:38:32:097: [WARN] - (node:263) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:263) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:263) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:38:35:600: [INFO] - Added a player to D-00000027. Player: Alternative 4.
+2024-01-14 02:38:35:816: [INFO] - Added a player to D-00000027. Player: Alternative 4.
+2024-01-14 02:38:36:291: [WARN] - (node:299) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:299) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:299) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:299) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:38:36:437: [INFO] - Added a player to D-00000027. Player: undefined.
+2024-01-14 02:38:37:402: [WARN] - Resend start dealer post.
+2024-01-14 02:38:39:280: [INFO] - Start game D-00000027.
+2024-01-14 02:38:39:524: [INFO] - Start game D-00000027.
+2024-01-14 02:41:20:448: [WARN] - (node:238) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:238) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:238) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:238) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:41:20:450: [WARN] - (node:291) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:291) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:291) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:291) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:42:28:651: [INFO] - Create game. {"name":"test","players":[],"status":"new","totalTurn":"1000","whiteWild":"skip_bind_2","code":"D-00000028"}
+2024-01-14 02:42:28:653: [INFO] - Add new dealer.
+2024-01-14 02:44:55:589: [INFO] - Added a player to D-00000028. Player: Alternative 3.
+2024-01-14 02:44:56:394: [INFO] - Added a player to D-00000028. Player: Alternative 4.
+2024-01-14 02:44:56:587: [INFO] - Added a player to D-00000028. Player: Alternative 4.
+2024-01-14 02:44:57:057: [WARN] - (node:335) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:335) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:335) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:335) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+
+2024-01-14 02:44:58:740: [WARN] - Resend start dealer post.
+2024-01-14 02:45:00:093: [INFO] - Start game D-00000028.
+2024-01-14 02:45:00:152: [INFO] - Start game D-00000028.

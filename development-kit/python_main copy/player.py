@@ -271,7 +271,8 @@ Returns:
 """
 def select_change_color():
     # このプログラムでは変更する色をランダムで選択する。
-    return ARR_COLOR[random_by_number(len(ARR_COLOR))]
+    # print("===========", max(colors), "===========")
+    return max(colors) if max(colors) != 0 else "red"
 
 """
 チャンレンジするかを決定する
@@ -440,6 +441,7 @@ def on_first_player(data_res):
 def on_color_of_wild(data_res):
     def color_of_wild_callback(data_res):
         color = select_change_color()
+        # print("==========", color, "==========")
         data = {
             'color_of_wild': color,
         }
@@ -512,6 +514,9 @@ def on_next_player(data_res):
             if play_card.get('special') == Special.WILD or play_card.get('special') == Special.WILD_DRAW_4:
                 color = select_change_color()
                 data['color_of_wild'] = color
+                # print("==========", color, "==========")
+
+
 
             # カードを出すイベントを実行
             send_event(SocketConst.EMIT.PLAY_CARD, data)
@@ -534,6 +539,8 @@ def on_next_player(data_res):
                 if play_card.get('special') == Special.WILD or play_card.get('special') == Special.WILD_DRAW_4:
                     color = select_change_color()
                     data['color_of_wild'] = color
+                    # print("==========", color, "==========")
+
 
                 # 引いたカードを出すイベントを実行
                 send_event(SocketConst.EMIT.PLAY_DRAW_CARD, data)

@@ -420,3 +420,707 @@
 2024-01-14 00:26:11:491: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
 2024-01-14 00:26:11:501: [INFO] - Client connect successfully!
 2024-01-14 00:26:11:508: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:38:358: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:361: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:372: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:375: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:389: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:365: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:384: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:372: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:388: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:360: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:359: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:369: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:382: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:367: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:383: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:366: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:369: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:387: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:364: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:374: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:388: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:370: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:358: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:359: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:38:374: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:392: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:376: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:393: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:372: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 00:30:38:393: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:38:789: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:793: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:793: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:794: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:795: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:799: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:800: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:801: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:805: [INFO] - Client connect successfully!
+2024-01-14 00:30:38:807: [INFO] - Client connect successfully!
+2024-01-14 00:30:39:247: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 00:30:39:249: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 2","game_id":"D-00000010","your_id":"P-00000002","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 00:30:39:250: [INFO] - join-room res: {"room_name":"test","player":"Alternative 2","game_id":"D-00000010","your_id":"P-00000002","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 00:30:39:256: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:263: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:269: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:291: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:304: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:309: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:314: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:326: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:39:332: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:41:343: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:41:351: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:41:367: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:41:385: [INFO] - Client connect successfully!
+2024-01-14 00:30:41:407: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:41:409: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000010","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 00:30:41:410: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000010","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 00:30:41:602: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:41:606: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:41:627: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:41:648: [INFO] - Client connect successfully!
+2024-01-14 00:30:41:662: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:41:799: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:41:805: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:41:817: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:41:835: [INFO] - Client connect successfully!
+2024-01-14 00:30:41:924: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:41:961: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:41:964: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:41:980: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:41:996: [INFO] - Client connect successfully!
+2024-01-14 00:30:42:004: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:42:144: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:42:148: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:42:165: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:42:181: [INFO] - Client connect successfully!
+2024-01-14 00:30:42:190: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:42:312: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:42:316: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 00:30:42:330: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 00:30:42:352: [INFO] - Client connect successfully!
+2024-01-14 00:30:42:362: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 00:30:46:015: [INFO] - Host: http://localhost:8080
+2024-01-14 00:30:46:017: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 00:30:46:024: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 00:30:46:031: [INFO] - Client connect successfully!
+2024-01-14 00:30:46:072: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 00:30:46:124: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000010","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 00:30:46:125: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000010","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 01:20:35:689: [INFO] - Host: http://localhost:8080
+2024-01-14 01:20:35:691: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:20:35:697: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:20:35:706: [INFO] - Client connect successfully!
+2024-01-14 01:20:35:724: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:20:35:727: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000011","your_id":"P-00000005","total_turn":30,"white_wild":"skip_bind_2"}
+2024-01-14 01:20:35:728: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000011","your_id":"P-00000005","total_turn":30,"white_wild":"skip_bind_2"}
+2024-01-14 01:20:36:342: [INFO] - Host: http://localhost:8080
+2024-01-14 01:20:36:345: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:20:36:352: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:20:36:361: [INFO] - Client connect successfully!
+2024-01-14 01:20:36:377: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:20:36:379: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000011","your_id":"P-00000006","total_turn":30,"white_wild":"skip_bind_2"}
+2024-01-14 01:20:36:380: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000011","your_id":"P-00000006","total_turn":30,"white_wild":"skip_bind_2"}
+2024-01-14 01:20:36:561: [INFO] - Host: http://localhost:8080
+2024-01-14 01:20:36:564: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:20:36:572: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:20:36:581: [INFO] - Client connect successfully!
+2024-01-14 01:20:36:587: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:20:36:725: [INFO] - Host: http://localhost:8080
+2024-01-14 01:20:36:727: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:20:36:733: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:20:36:785: [INFO] - Client connect successfully!
+2024-01-14 01:20:36:790: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:19:997: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:005: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:022: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:034: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:029: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:032: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:043: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:063: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:227: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:230: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:240: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:253: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:256: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000012","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:25:20:257: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000012","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:25:20:269: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:271: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:317: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:372: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:375: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:388: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:488: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:755: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:840: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:840: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:843: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:842: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:850: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:862: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:867: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:846: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:855: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:867: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:843: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:25:20:854: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:25:20:867: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:873: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:879: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:25:20:868: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:20:871: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:25:20:879: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:25:20:889: [INFO] - Client connect successfully!
+2024-01-14 01:25:20:909: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:25:20:911: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000012","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:25:20:912: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000012","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:25:21:342: [INFO] - Host: http://localhost:8080
+2024-01-14 01:25:21:345: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:25:21:354: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:25:21:363: [INFO] - Client connect successfully!
+2024-01-14 01:25:21:372: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:45:189: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:45:192: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:37:45:199: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:37:45:208: [INFO] - Client connect successfully!
+2024-01-14 01:37:45:228: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:37:45:231: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000013","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:37:45:232: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000013","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:37:45:313: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:45:315: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:37:45:321: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:37:45:330: [INFO] - Client connect successfully!
+2024-01-14 01:37:45:335: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:45:547: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:45:549: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:37:45:556: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:37:45:567: [INFO] - Client connect successfully!
+2024-01-14 01:37:45:573: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:45:662: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:45:665: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:37:45:673: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:37:45:682: [INFO] - Client connect successfully!
+2024-01-14 01:37:45:687: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:45:899: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:45:901: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:37:45:908: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:37:45:916: [INFO] - Client connect successfully!
+2024-01-14 01:37:45:934: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:37:45:937: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000013","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:37:45:937: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000013","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:37:46:031: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:46:033: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:37:46:040: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:37:46:182: [INFO] - Client connect successfully!
+2024-01-14 01:37:46:246: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:46:709: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:46:709: [INFO] - Host: http://localhost:8080
+2024-01-14 01:37:46:711: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:37:46:718: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:37:46:711: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:37:46:717: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:37:46:750: [INFO] - Client connect successfully!
+2024-01-14 01:37:46:750: [INFO] - Client connect successfully!
+2024-01-14 01:37:46:755: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:37:46:759: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:871: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:874: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:858: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:858: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:876: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:858: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:875: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:874: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:874: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:863: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:877: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:872: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:893: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:882: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:859: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:889: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:864: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:877: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:862: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:887: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:900: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:899: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:873: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:875: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:877: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:891: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:879: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:893: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:905: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:907: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:884: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:48:888: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:48:899: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:911: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:913: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:914: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:916: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:917: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:919: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:919: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:920: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:921: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:922: [INFO] - Client connect successfully!
+2024-01-14 01:41:48:952: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:48:967: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000014","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:41:48:968: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000014","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:41:48:974: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:48:975: [INFO] - Client disconnect. data_res: io server disconnect
+2024-01-14 01:41:49:002: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:009: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:016: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:027: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:034: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:042: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:048: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:057: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:063: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:069: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:077: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:083: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:092: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:461: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:49:464: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:49:468: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:49:465: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:49:468: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:49:478: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:49:488: [INFO] - Client connect successfully!
+2024-01-14 01:41:49:465: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:49:474: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:49:488: [INFO] - Client connect successfully!
+2024-01-14 01:41:49:472: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:49:479: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:49:489: [INFO] - Client connect successfully!
+2024-01-14 01:41:49:468: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:41:49:479: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:41:49:491: [INFO] - Client connect successfully!
+2024-01-14 01:41:49:495: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:500: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:507: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:516: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:41:49:624: [INFO] - Host: http://localhost:8080
+2024-01-14 01:41:49:626: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:41:49:633: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:41:49:642: [INFO] - Client connect successfully!
+2024-01-14 01:41:49:661: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:41:49:664: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000014","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:41:49:664: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000014","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:43:51:427: [INFO] - Host: http://localhost:8080
+2024-01-14 01:43:51:429: [INFO] - Dealer: test, Player: Alternative 1
+2024-01-14 01:43:51:435: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 1"}
+2024-01-14 01:43:51:444: [INFO] - Client connect successfully!
+2024-01-14 01:43:51:604: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 1"}
+2024-01-14 01:43:51:610: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 1","game_id":"D-00000015","your_id":"P-00000007","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:43:51:610: [INFO] - join-room res: {"room_name":"test","player":"Alternative 1","game_id":"D-00000015","your_id":"P-00000007","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:44:11:303: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:306: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:314: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:304: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:305: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:307: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:317: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:309: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:317: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:303: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:307: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:306: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:316: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:310: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:318: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:309: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:309: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:312: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:321: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:312: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:320: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:361: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:362: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:364: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:364: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:366: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:366: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:367: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:385: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:389: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000015","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:44:11:390: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000015","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:44:11:394: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:396: [INFO] - Client disconnect. data_res: io server disconnect
+2024-01-14 01:44:11:457: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:459: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:466: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:475: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:478: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:483: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:490: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:496: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:504: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:511: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:44:11:668: [INFO] - Host: http://localhost:8080
+2024-01-14 01:44:11:671: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:44:11:677: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:44:11:686: [INFO] - Client connect successfully!
+2024-01-14 01:44:11:691: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:54:26:343: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:26:346: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:54:26:360: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:54:26:368: [INFO] - Client connect successfully!
+2024-01-14 01:54:26:386: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:54:26:388: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000016","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:54:26:388: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000016","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:54:26:570: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:26:572: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:54:26:578: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:54:26:586: [INFO] - Client connect successfully!
+2024-01-14 01:54:26:591: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:54:26:756: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:26:758: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:54:26:764: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:54:26:771: [INFO] - Client connect successfully!
+2024-01-14 01:54:26:776: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:54:26:941: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:26:943: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:54:26:949: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:54:26:956: [INFO] - Client connect successfully!
+2024-01-14 01:54:26:975: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:54:26:978: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000016","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:54:26:978: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000016","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:54:27:134: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:27:137: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:54:27:145: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:54:27:153: [INFO] - Client connect successfully!
+2024-01-14 01:54:27:160: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:54:27:336: [INFO] - Host: http://localhost:8080
+2024-01-14 01:54:27:338: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:54:27:345: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:54:27:353: [INFO] - Client connect successfully!
+2024-01-14 01:54:27:357: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:130: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:128: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:130: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:130: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:176: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:176: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:176: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:176: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:129: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:129: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:177: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:170: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:177: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:259: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:260: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:261: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:263: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:264: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:265: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:280: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:283: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000017","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:56:15:283: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000017","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:56:15:287: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:319: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:321: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:328: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:337: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:424: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:15:426: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:56:15:434: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:56:15:441: [INFO] - Client connect successfully!
+2024-01-14 01:56:15:470: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:475: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:480: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:485: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:490: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:15:494: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:56:17:471: [INFO] - Host: http://localhost:8080
+2024-01-14 01:56:17:473: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:56:17:480: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:56:17:487: [INFO] - Client connect successfully!
+2024-01-14 01:56:17:505: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:56:17:509: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000017","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:56:17:509: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000017","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:59:09:445: [INFO] - Host: http://localhost:8080
+2024-01-14 01:59:09:447: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:59:09:454: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:59:09:465: [INFO] - Client connect successfully!
+2024-01-14 01:59:09:487: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:59:09:490: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000018","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:59:09:490: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000018","your_id":"P-00000005","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:59:09:547: [INFO] - Host: http://localhost:8080
+2024-01-14 01:59:09:549: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:59:09:555: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:59:09:563: [INFO] - Client connect successfully!
+2024-01-14 01:59:09:567: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:59:09:764: [INFO] - Host: http://localhost:8080
+2024-01-14 01:59:09:766: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 01:59:09:774: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 01:59:09:782: [INFO] - Client connect successfully!
+2024-01-14 01:59:09:787: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 01:59:09:940: [INFO] - Host: http://localhost:8080
+2024-01-14 01:59:09:942: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:59:09:949: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:59:09:957: [INFO] - Client connect successfully!
+2024-01-14 01:59:09:975: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:59:09:977: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000018","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:59:09:978: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000018","your_id":"P-00000006","total_turn":10,"white_wild":"skip_bind_2"}
+2024-01-14 01:59:10:136: [INFO] - Host: http://localhost:8080
+2024-01-14 01:59:10:138: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 01:59:10:145: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 01:59:10:152: [INFO] - Client connect successfully!
+2024-01-14 01:59:10:157: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:04:20:776: [INFO] - Host: http://localhost:8080
+2024-01-14 02:04:20:778: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:04:20:784: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:04:20:792: [INFO] - Client connect successfully!
+2024-01-14 02:04:20:809: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:04:20:812: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000019","your_id":"P-00000005","total_turn":25,"white_wild":"skip_bind_2"}
+2024-01-14 02:04:20:812: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000019","your_id":"P-00000005","total_turn":25,"white_wild":"skip_bind_2"}
+2024-01-14 02:04:21:420: [INFO] - Host: http://localhost:8080
+2024-01-14 02:04:21:422: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:04:21:429: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:04:21:438: [INFO] - Client connect successfully!
+2024-01-14 02:04:21:458: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:04:21:463: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000019","your_id":"P-00000006","total_turn":25,"white_wild":"skip_bind_2"}
+2024-01-14 02:04:21:463: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000019","your_id":"P-00000006","total_turn":25,"white_wild":"skip_bind_2"}
+2024-01-14 02:04:21:569: [INFO] - Host: http://localhost:8080
+2024-01-14 02:04:21:571: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:04:21:577: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:04:21:584: [INFO] - Client connect successfully!
+2024-01-14 02:04:21:588: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:06:34:431: [INFO] - Host: http://localhost:8080
+2024-01-14 02:06:34:431: [INFO] - Host: http://localhost:8080
+2024-01-14 02:06:34:433: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 02:06:34:441: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 02:06:34:434: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 02:06:34:441: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 02:06:34:508: [INFO] - Client connect successfully!
+2024-01-14 02:06:34:509: [INFO] - Client connect successfully!
+2024-01-14 02:06:34:525: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 02:06:34:527: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 2","game_id":"D-00000020","your_id":"P-00000002","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:06:34:528: [INFO] - join-room res: {"room_name":"test","player":"Alternative 2","game_id":"D-00000020","your_id":"P-00000002","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:06:34:531: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:06:37:622: [INFO] - Host: http://localhost:8080
+2024-01-14 02:06:37:624: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:06:37:630: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:06:37:637: [INFO] - Client connect successfully!
+2024-01-14 02:06:37:653: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:06:37:654: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000020","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:06:37:655: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000020","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:24:538: [INFO] - Host: http://localhost:8080
+2024-01-14 02:08:24:540: [INFO] - Dealer: test, Player: Alternative 2
+2024-01-14 02:08:24:546: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 02:08:24:572: [INFO] - Client connect successfully!
+2024-01-14 02:08:24:588: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 2"}
+2024-01-14 02:08:24:590: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 2","game_id":"D-00000021","your_id":"P-00000002","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:24:591: [INFO] - join-room res: {"room_name":"test","player":"Alternative 2","game_id":"D-00000021","your_id":"P-00000002","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:25:090: [INFO] - Host: http://localhost:8080
+2024-01-14 02:08:25:092: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:08:25:098: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:08:25:106: [INFO] - Client connect successfully!
+2024-01-14 02:08:25:122: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:08:25:124: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000021","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:25:124: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000021","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:28:091: [INFO] - Host: http://localhost:8080
+2024-01-14 02:08:28:093: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:08:28:099: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:08:28:107: [INFO] - Client connect successfully!
+2024-01-14 02:08:28:158: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:08:28:162: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000021","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:28:163: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000021","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:49:240: [INFO] - Host: http://localhost:8080
+2024-01-14 02:08:49:242: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:08:49:248: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:08:49:255: [INFO] - Client connect successfully!
+2024-01-14 02:08:49:273: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:08:49:274: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000022","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:49:275: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000022","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:50:385: [INFO] - Host: http://localhost:8080
+2024-01-14 02:08:50:388: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:08:50:394: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:08:50:402: [INFO] - Client connect successfully!
+2024-01-14 02:08:50:419: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:08:50:422: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000022","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:08:50:423: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000022","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:09:49:949: [INFO] - Host: http://localhost:8080
+2024-01-14 02:09:49:955: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:09:49:971: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:09:49:991: [INFO] - Client connect successfully!
+2024-01-14 02:09:50:021: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:09:50:025: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000023","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:09:50:026: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000023","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:09:50:713: [INFO] - Host: http://localhost:8080
+2024-01-14 02:09:50:713: [INFO] - Host: http://localhost:8080
+2024-01-14 02:09:50:724: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:09:50:732: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:09:50:723: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:09:50:732: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:09:50:763: [INFO] - Client connect successfully!
+2024-01-14 02:09:50:764: [INFO] - Client connect successfully!
+2024-01-14 02:09:50:792: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:09:50:849: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:09:53:319: [INFO] - Host: http://localhost:8080
+2024-01-14 02:09:53:321: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:09:53:327: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:09:53:335: [INFO] - Client connect successfully!
+2024-01-14 02:09:53:356: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:09:53:359: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000023","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:09:53:360: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000023","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:09:53:502: [INFO] - Host: http://localhost:8080
+2024-01-14 02:09:53:504: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:09:53:511: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:09:53:519: [INFO] - Client connect successfully!
+2024-01-14 02:09:53:524: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:16:48:204: [INFO] - Host: http://localhost:8080
+2024-01-14 02:16:48:206: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:16:48:212: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:16:48:219: [INFO] - Client connect successfully!
+2024-01-14 02:16:48:237: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:16:48:239: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000024","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:16:48:239: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000024","your_id":"P-00000005","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:16:49:357: [INFO] - Host: http://localhost:8080
+2024-01-14 02:16:49:359: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:16:49:365: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:16:49:372: [INFO] - Client connect successfully!
+2024-01-14 02:16:49:389: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:16:49:391: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000024","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:16:49:391: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000024","your_id":"P-00000006","total_turn":1,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:25:692: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:25:694: [INFO] - Dealer: test, Player: Alternative 1
+2024-01-14 02:28:25:700: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 1"}
+2024-01-14 02:28:25:708: [INFO] - Client connect successfully!
+2024-01-14 02:28:25:730: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 1"}
+2024-01-14 02:28:25:732: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 1","game_id":"D-00000025","your_id":"P-00000007","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:25:732: [INFO] - join-room res: {"room_name":"test","player":"Alternative 1","game_id":"D-00000025","your_id":"P-00000007","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:30:526: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:30:533: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:28:30:544: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:28:30:558: [INFO] - Client connect successfully!
+2024-01-14 02:28:30:578: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:28:30:583: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000025","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:30:584: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000025","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:31:321: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:31:326: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:28:31:344: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:28:31:453: [INFO] - Client connect successfully!
+2024-01-14 02:28:31:430: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:31:433: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:28:31:447: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:28:31:460: [INFO] - Client connect successfully!
+2024-01-14 02:28:31:471: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:28:31:506: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:28:31:681: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:31:685: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:28:31:701: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:28:31:761: [INFO] - Client connect successfully!
+2024-01-14 02:28:31:784: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:28:31:787: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000025","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:31:788: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000025","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:28:31:764: [INFO] - Host: http://localhost:8080
+2024-01-14 02:28:31:768: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:28:31:782: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:28:31:797: [INFO] - Client connect successfully!
+2024-01-14 02:28:31:806: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:32:10:565: [INFO] - Host: http://localhost:8080
+2024-01-14 02:32:10:567: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:32:10:573: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:32:10:580: [INFO] - Client connect successfully!
+2024-01-14 02:32:10:597: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:32:10:598: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000026","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:32:10:598: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000026","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:32:11:350: [INFO] - Host: http://localhost:8080
+2024-01-14 02:32:11:352: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:32:11:358: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:32:11:365: [INFO] - Client connect successfully!
+2024-01-14 02:32:11:382: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:32:11:384: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000026","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:32:11:384: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000026","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:38:31:938: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:31:939: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:31:943: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:31:942: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:38:31:971: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:31:946: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:38:31:971: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:31:945: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:31:980: [INFO] - Client connect successfully!
+2024-01-14 02:38:31:940: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:38:31:970: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:31:979: [INFO] - Client connect successfully!
+2024-01-14 02:38:31:948: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:38:31:970: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:31:978: [INFO] - Client connect successfully!
+2024-01-14 02:38:31:981: [INFO] - Client connect successfully!
+2024-01-14 02:38:31:996: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:31:998: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000027","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:38:31:998: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000027","your_id":"P-00000005","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:38:32:003: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:38:32:011: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:38:32:016: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:38:32:066: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:32:068: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:38:32:075: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:38:32:083: [INFO] - Client connect successfully!
+2024-01-14 02:38:32:089: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:38:36:045: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:36:048: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:38:36:054: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:38:36:061: [INFO] - Client connect successfully!
+2024-01-14 02:38:36:079: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:38:36:081: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000027","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:38:36:081: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000027","your_id":"P-00000006","total_turn":50,"white_wild":"skip_bind_2"}
+2024-01-14 02:38:36:265: [INFO] - Host: http://localhost:8080
+2024-01-14 02:38:36:267: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:38:36:273: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:38:36:280: [INFO] - Client connect successfully!
+2024-01-14 02:38:36:284: [ERROR] - Client join-room failed! [object Object]
+2024-01-14 02:44:56:028: [INFO] - Host: http://localhost:8080
+2024-01-14 02:44:56:030: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-14 02:44:56:037: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:44:56:044: [INFO] - Client connect successfully!
+2024-01-14 02:44:56:061: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-14 02:44:56:062: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000028","your_id":"P-00000005","total_turn":1000,"white_wild":"skip_bind_2"}
+2024-01-14 02:44:56:063: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000028","your_id":"P-00000005","total_turn":1000,"white_wild":"skip_bind_2"}
+2024-01-14 02:44:56:835: [INFO] - Host: http://localhost:8080
+2024-01-14 02:44:56:837: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:44:56:843: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:44:56:851: [INFO] - Client connect successfully!
+2024-01-14 02:44:56:868: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:44:56:869: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000028","your_id":"P-00000006","total_turn":1000,"white_wild":"skip_bind_2"}
+2024-01-14 02:44:56:870: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000028","your_id":"P-00000006","total_turn":1000,"white_wild":"skip_bind_2"}
+2024-01-14 02:44:57:030: [INFO] - Host: http://localhost:8080
+2024-01-14 02:44:57:032: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-14 02:44:57:039: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-14 02:44:57:046: [INFO] - Client connect successfully!
+2024-01-14 02:44:57:050: [ERROR] - Client join-room failed! [object Object]
