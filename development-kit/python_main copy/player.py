@@ -155,7 +155,6 @@ colors = {
         "yellow": 0,
     }
 
-
 """
 出すカードを選出する
 
@@ -164,6 +163,7 @@ Args:
     before_card (*): 場札のカード
 """
 def select_play_card(cards, before_card):
+    
     cards_valid = [] # 通常カードを格納
     cards_skip = [] # スキップ
     cards_reverse = [] # リバース
@@ -171,10 +171,16 @@ def select_play_card(cards, before_card):
     cards_wild = [] # ワイルド・シャッフルワイルド・白いワイルドを格納
     cards_wild_shuffle = [] # ワイルドシャッフルを格納
     cards_wild4 = [] # ワイルドドロー4を格納
-    
+
+    for k in colors:
+        colors[k] = 0
+
     # 場札と照らし合わせ出せるカードを抽出する
     for card in cards:
         card_color(str(card.get("color")))
+        print("~~~~~~~~~~~~~~~~~~~~")
+        print(colors)
+        print("~~~~~~~~~~~~~~~~~~~~")
         card_special = card.get('special')
         card_number = card.get('number')
         if str(card_special) == Special.WILD_DRAW_4:
@@ -250,6 +256,8 @@ def card_color(card):
         elif card == Color.YELLOW:
             colors['yellow'] = colors['yellow'] + 1
 
+
+
 """
 乱数取得
 
@@ -272,7 +280,10 @@ Returns:
 def select_change_color():
     # このプログラムでは変更する色をランダムで選択する。
     # print("===========", max(colors), "===========")
-    return max(colors) if max(colors) != 0 else "red"
+    max_val = sorted(colors)
+    color = max_val[0]
+
+    return color
 
 """
 チャンレンジするかを決定する
@@ -442,6 +453,8 @@ def on_color_of_wild(data_res):
     def color_of_wild_callback(data_res):
         color = select_change_color()
         # print("==========", color, "==========")
+        send_event(SocketConst.EMIT.SPECIAL_LOGIC, { 'title': color })
+
         data = {
             'color_of_wild': color,
         }
@@ -514,6 +527,7 @@ def on_next_player(data_res):
             if play_card.get('special') == Special.WILD or play_card.get('special') == Special.WILD_DRAW_4:
                 color = select_change_color()
                 data['color_of_wild'] = color
+                send_event(SocketConst.EMIT.SPECIAL_LOGIC, { 'title': color })
                 # print("==========", color, "==========")
 
 
@@ -539,6 +553,7 @@ def on_next_player(data_res):
                 if play_card.get('special') == Special.WILD or play_card.get('special') == Special.WILD_DRAW_4:
                     color = select_change_color()
                     data['color_of_wild'] = color
+                    send_event(SocketConst.EMIT.SPECIAL_LOGIC, { 'title': color })
                     # print("==========", color, "==========")
 
 
