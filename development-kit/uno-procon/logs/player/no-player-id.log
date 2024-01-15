@@ -1124,3 +1124,27 @@
 2024-01-14 02:44:57:039: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
 2024-01-14 02:44:57:046: [INFO] - Client connect successfully!
 2024-01-14 02:44:57:050: [ERROR] - Client join-room failed! [object Object]
+2024-01-15 21:53:58:835: [INFO] - Host: http://localhost:8080
+2024-01-15 21:53:58:838: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-15 21:53:58:847: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-15 21:53:58:856: [INFO] - Client connect successfully!
+2024-01-15 21:53:58:874: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-15 21:53:58:876: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 3","game_id":"D-00000029","your_id":"P-00000005","total_turn":100,"white_wild":"skip_bind_2"}
+2024-01-15 21:53:58:877: [INFO] - join-room res: {"room_name":"test","player":"Alternative 3","game_id":"D-00000029","your_id":"P-00000005","total_turn":100,"white_wild":"skip_bind_2"}
+2024-01-15 21:53:59:190: [INFO] - Host: http://localhost:8080
+2024-01-15 21:53:59:192: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-15 21:53:59:200: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-15 21:53:59:210: [INFO] - Client connect successfully!
+2024-01-15 21:53:59:218: [ERROR] - Client join-room failed! [object Object]
+2024-01-15 21:53:59:334: [INFO] - Host: http://localhost:8080
+2024-01-15 21:53:59:338: [INFO] - Dealer: test, Player: Alternative 3
+2024-01-15 21:53:59:344: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 3"}
+2024-01-15 21:53:59:352: [INFO] - Client connect successfully!
+2024-01-15 21:53:59:358: [ERROR] - Client join-room failed! [object Object]
+2024-01-15 21:54:00:935: [INFO] - Host: http://localhost:8080
+2024-01-15 21:54:00:937: [INFO] - Dealer: test, Player: Alternative 4
+2024-01-15 21:54:00:944: [INFO] - Send join-room event. req_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-15 21:54:00:951: [INFO] - Client connect successfully!
+2024-01-15 21:54:00:970: [INFO] - Receive join-room event. res_data: {"room_name":"test","player":"Alternative 4"}
+2024-01-15 21:54:00:972: [INFO] - Client join-room successfully! res_data: {"room_name":"test","player":"Alternative 4","game_id":"D-00000029","your_id":"P-00000006","total_turn":100,"white_wild":"skip_bind_2"}
+2024-01-15 21:54:00:973: [INFO] - join-room res: {"room_name":"test","player":"Alternative 4","game_id":"D-00000029","your_id":"P-00000006","total_turn":100,"white_wild":"skip_bind_2"}
